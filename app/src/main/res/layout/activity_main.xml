@@ -11,24 +11,374 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
+        <!-- кнопка квесты  quest -->
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/buttonQuest"
             style="@style/menu_buttons"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:alpha="0.4"
-            android:fontFamily="@font/freemono"
-            android:gravity="bottom|center_horizontal"
-            android:text="Buttefefefdefon"
-            android:textSize="28sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.169"
+            android:layout_marginTop="24dp"
+            android:alpha="0.2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewQuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonQuest"
+            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonQuest"
+            app:layout_constraintTop_toTopOf="@+id/buttonQuest"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/quests" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="КВЕСТЫ"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonQuest"
+            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
+            app:layout_constraintStart_toStartOf="@+id/buttonQuest"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewQuest" />
+        <!-- кнопка медикаменты  medicine-->
+        <Button
+            android:id="@+id/buttonMedicine"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewMedicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonMedicine"
+            app:layout_constraintEnd_toEndOf="@+id/buttonMedicine"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonMedicine"
+            app:layout_constraintTop_toTopOf="@+id/buttonMedicine"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/medicine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="МЕДИКАМЕНТЫ"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonMedicine"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewMedicine"
+            app:layout_constraintStart_toStartOf="@+id/imageViewMedicine"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewMedicine" />
+        <!-- кнопка еда food -->
+        <Button
+            android:id="@+id/buttonFood"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonQuest" />
+
+        <ImageView
+            android:id="@+id/imageViewFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonFood"
+            app:layout_constraintEnd_toEndOf="@+id/buttonFood"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonFood"
+            app:layout_constraintTop_toTopOf="@+id/buttonFood"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/food" />
+
+        <TextView
+            android:id="@+id/textViewFood"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ЕДА"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonFood"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewFood"
+            app:layout_constraintStart_toStartOf="@+id/imageViewFood"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewFood" />
+        <!-- кнопка персонажи  characters -->
+        <Button
+            android:id="@+id/buttonCharecter"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="@+id/buttonFood"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonFood" />
+
+        <ImageView
+            android:id="@+id/imageViewCharecter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonCharecter"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonCharecter"
+            app:layout_constraintTop_toTopOf="@+id/buttonCharecter"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/character" />
+
+        <TextView
+            android:id="@+id/textViewCharecter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ПЕРСОНАЖИ"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonCharecter"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
+            app:layout_constraintStart_toStartOf="@+id/buttonCharecter"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCharecter"
+            tools:layout_editor_absoluteY="386dp" />
+        <!-- кнопка компоненты components -->
+        <Button
+            android:id="@+id/buttonComponents"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCharecter" />
+
+        <ImageView
+            android:id="@+id/imageViewComponents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonComponents"
+            app:layout_constraintEnd_toEndOf="@+id/buttonComponents"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonComponents"
+            app:layout_constraintTop_toTopOf="@+id/buttonComponents"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/components" />
+
+        <TextView
+            android:id="@+id/textViewComponents"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="КОМПОНЕНТЫ"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonComponents"
+            app:layout_constraintEnd_toEndOf="@+id/buttonComponents"
+            app:layout_constraintStart_toStartOf="@+id/buttonComponents"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewComponents"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <!-- кнопка враги enemy -->
+        <Button
+            android:id="@+id/buttonEnemy"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/buttonComponents"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonComponents" />
+
+        <ImageView
+            android:id="@+id/imageViewEnemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonEnemy"
+            app:layout_constraintEnd_toEndOf="@+id/buttonEnemy"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonEnemy"
+            app:layout_constraintTop_toTopOf="@+id/buttonEnemy"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/enemy" />
+
+        <TextView
+            android:id="@+id/textViewEnemy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ВРАГИ"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonEnemy"
+            app:layout_constraintEnd_toEndOf="@+id/buttonEnemy"
+            app:layout_constraintStart_toStartOf="@+id/buttonEnemy"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEnemy"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <!-- кнопка обмундирование  equipment -->
+
+        <Button
+            android:id="@+id/buttonEquipment"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonMedicine" />
+
+        <ImageView
+            android:id="@+id/imageViewEquipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonEquipment"
+            app:layout_constraintEnd_toEndOf="@+id/buttonEquipment"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonEquipment"
+            app:layout_constraintTop_toTopOf="@+id/buttonEquipment"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/equipment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ОБМУНДИРОВАНИЕ"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonEquipment"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewEquipment"
+            app:layout_constraintStart_toStartOf="@+id/imageViewEquipment"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewEquipment" />
+        <!-- кнопка оружие  weapon -->
+        <Button
+            android:id="@+id/buttonWeapon"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEquipment" />
+
+        <ImageView
+            android:id="@+id/imageViewWeapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonWeapon"
+            app:layout_constraintEnd_toEndOf="@+id/buttonWeapon"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonWeapon"
+            app:layout_constraintTop_toTopOf="@+id/buttonWeapon"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/weapon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ОРУЖИЕ"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonWeapon"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewWeapon"
+            app:layout_constraintStart_toStartOf="@+id/imageViewWeapon"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewWeapon" />
+        <!-- кнопка транспорт transport -->
+        <Button
+            android:id="@+id/buttonTransport"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:alpha="0.2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonWeapon"  />
+
+        <ImageView
+            android:id="@+id/imageViewTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonTransport"
+            app:layout_constraintEnd_toEndOf="@+id/buttonTransport"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonTransport"
+            app:layout_constraintTop_toTopOf="@+id/buttonTransport"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/transport" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ТРАНСПОРТ"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonTransport"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewTransport"
+            app:layout_constraintStart_toStartOf="@+id/imageViewTransport"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTransport" />
+        <!-- кнопка выживание  survival -->
+        <Button
+            android:id="@+id/buttonSurvival"
+            style="@style/menu_buttons"
+            android:layout_width="168dp"
+            android:layout_height="197dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonTransport" />
+
+        <ImageView
+            android:id="@+id/imageViewSurvival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonSurvival"
+            app:layout_constraintEnd_toEndOf="@+id/buttonSurvival"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/buttonSurvival"
+            app:layout_constraintTop_toTopOf="@+id/buttonSurvival"
+            app:layout_constraintVertical_bias="0.188"
+            app:srcCompat="@drawable/survival" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/freemono"
+            android:text="ВЫЖИВАНИЕ"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonSurvival"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewSurvival"
+            app:layout_constraintStart_toStartOf="@+id/imageViewSurvival"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSurvival" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
