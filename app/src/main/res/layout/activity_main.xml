@@ -8,12 +8,13 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <!-- кнопка квесты  quest -->
         <Button
-            android:id="@+id/buttonQuest"
+            android:id="@+id/btnQuest"
             style="@style/menu_buttons"
             android:layout_width="168dp"
             android:layout_height="197dp"
@@ -24,28 +25,29 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageViewQuest"
+            android:id="@+id/ivQuest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/buttonQuest"
-            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
+            app:layout_constraintBottom_toBottomOf="@+id/btnQuest"
+            app:layout_constraintEnd_toEndOf="@+id/btnQuest"
             app:layout_constraintHorizontal_bias="0.475"
-            app:layout_constraintStart_toStartOf="@+id/buttonQuest"
-            app:layout_constraintTop_toTopOf="@+id/buttonQuest"
+            app:layout_constraintStart_toStartOf="@+id/btnQuest"
+            app:layout_constraintTop_toTopOf="@+id/btnQuest"
             app:layout_constraintVertical_bias="0.188"
             app:srcCompat="@drawable/quests" />
 
         <TextView
+            android:id="@+id/tvQuest"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
             android:text="КВЕСТЫ"
             android:textColor="@color/white"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/buttonQuest"
-            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
-            app:layout_constraintStart_toStartOf="@+id/buttonQuest"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewQuest" />
+            app:layout_constraintBottom_toBottomOf="@+id/btnQuest"
+            app:layout_constraintEnd_toEndOf="@+id/btnQuest"
+            app:layout_constraintStart_toStartOf="@+id/btnQuest"
+            app:layout_constraintTop_toBottomOf="@+id/ivQuest" />
         <!-- кнопка медикаменты  medicine-->
         <Button
             android:id="@+id/buttonMedicine"
@@ -90,9 +92,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:alpha="0.2"
-            app:layout_constraintEnd_toEndOf="@+id/buttonQuest"
+            app:layout_constraintEnd_toEndOf="@+id/btnQuest"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonQuest" />
+            app:layout_constraintTop_toBottomOf="@+id/btnQuest" />
 
         <ImageView
             android:id="@+id/imageViewFood"
@@ -205,7 +207,6 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="24dp"
             android:alpha="0.2"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/buttonComponents"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonComponents" />
@@ -247,6 +248,7 @@
             android:layout_marginEnd="16dp"
             android:alpha="0.2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/buttonMedicine"
             app:layout_constraintTop_toBottomOf="@+id/buttonMedicine" />
 
         <ImageView
@@ -282,6 +284,7 @@
             android:layout_marginEnd="16dp"
             android:alpha="0.2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/buttonEquipment"
             app:layout_constraintTop_toBottomOf="@+id/buttonEquipment" />
 
         <ImageView
@@ -317,7 +320,8 @@
             android:layout_marginEnd="16dp"
             android:alpha="0.2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonWeapon"  />
+            app:layout_constraintStart_toStartOf="@+id/buttonWeapon"
+            app:layout_constraintTop_toBottomOf="@+id/buttonWeapon" />
 
         <ImageView
             android:id="@+id/imageViewTransport"
@@ -350,10 +354,9 @@
             android:layout_height="197dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="24dp"
             android:alpha="0.2"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/buttonTransport"
             app:layout_constraintTop_toBottomOf="@+id/buttonTransport" />
 
         <ImageView
@@ -379,6 +382,49 @@
             app:layout_constraintEnd_toEndOf="@+id/imageViewSurvival"
             app:layout_constraintStart_toStartOf="@+id/imageViewSurvival"
             app:layout_constraintTop_toBottomOf="@+id/imageViewSurvival" />
+
+        <!-- кнопка настройка settings -->
+
+        <Button
+            android:id="@+id/buttonSettings"
+            style="@style/menu_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEnemy" />
+
+        <ImageView
+            android:id="@+id/imageViewSettings"
+            android:layout_width="88dp"
+            android:layout_height="78dp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonSettings"
+            app:layout_constraintEnd_toEndOf="@+id/buttonSettings"
+            app:layout_constraintHorizontal_bias="0.198"
+            app:layout_constraintStart_toStartOf="@+id/buttonSettings"
+            app:layout_constraintTop_toTopOf="@+id/buttonSettings"
+            app:layout_constraintVertical_bias="0.454"
+            app:srcCompat="@drawable/settings" />
+
+        <TextView
+            android:layout_width="193dp"
+            android:layout_height="27dp"
+            android:fontFamily="@font/freemono"
+            android:text="НАСТРОЙКИ"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonSettings"
+            app:layout_constraintEnd_toEndOf="@+id/buttonSettings"
+            app:layout_constraintHorizontal_bias="0.403"
+            app:layout_constraintStart_toEndOf="@+id/imageViewSettings"
+            app:layout_constraintTop_toTopOf="@+id/buttonSettings"
+            app:layout_constraintVertical_bias="0.506" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
