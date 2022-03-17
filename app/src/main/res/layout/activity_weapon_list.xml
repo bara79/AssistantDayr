@@ -6,16 +6,19 @@
     android:layout_height="match_parent"
     android:alpha="0.7"
     android:background="@drawable/background"
-    tools:context=".listActivity.QuestListActivity">
+    tools:context=".listActivity.WeaponListActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="квесты activity"
+        android:text="оружие activity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

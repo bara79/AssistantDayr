@@ -1,9 +1,8 @@
-package com.bara_x.assistantdayr
+package com.bara_x.assistantdayr.listActivity
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.animation.AnimationUtils
+import com.bara_x.assistantdayr.R
 
 class QuestListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

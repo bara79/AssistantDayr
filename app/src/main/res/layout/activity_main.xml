@@ -73,6 +73,7 @@
             app:srcCompat="@drawable/medicine" />
 
         <TextView
+            android:id="@+id/textViewMedicine"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
@@ -122,7 +123,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageViewFood" />
         <!-- кнопка персонажи  characters -->
         <Button
-            android:id="@+id/buttonCharecter"
+            android:id="@+id/buttonCharacter"
             style="@style/menu_buttons"
             android:layout_width="168dp"
             android:layout_height="197dp"
@@ -134,29 +135,29 @@
             app:layout_constraintTop_toBottomOf="@+id/buttonFood" />
 
         <ImageView
-            android:id="@+id/imageViewCharecter"
+            android:id="@+id/imageViewCharacter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/buttonCharecter"
-            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonCharacter"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharacter"
             app:layout_constraintHorizontal_bias="0.475"
-            app:layout_constraintStart_toStartOf="@+id/buttonCharecter"
-            app:layout_constraintTop_toTopOf="@+id/buttonCharecter"
+            app:layout_constraintStart_toStartOf="@+id/buttonCharacter"
+            app:layout_constraintTop_toTopOf="@+id/buttonCharacter"
             app:layout_constraintVertical_bias="0.188"
             app:srcCompat="@drawable/character" />
 
         <TextView
-            android:id="@+id/textViewCharecter"
+            android:id="@+id/textViewCharacter"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
             android:text="ПЕРСОНАЖИ"
             android:textColor="@color/white"
             android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/buttonCharecter"
-            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
-            app:layout_constraintStart_toStartOf="@+id/buttonCharecter"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewCharecter"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonCharacter"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharacter"
+            app:layout_constraintStart_toStartOf="@+id/buttonCharacter"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCharacter"
             tools:layout_editor_absoluteY="386dp" />
         <!-- кнопка компоненты components -->
         <Button
@@ -167,9 +168,9 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:alpha="0.2"
-            app:layout_constraintEnd_toEndOf="@+id/buttonCharecter"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCharacter"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/buttonCharecter" />
+            app:layout_constraintTop_toBottomOf="@+id/buttonCharacter" />
 
         <ImageView
             android:id="@+id/imageViewComponents"
@@ -264,6 +265,7 @@
             app:srcCompat="@drawable/equipment" />
 
         <TextView
+            android:id="@+id/textViewEquipment"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
@@ -300,6 +302,7 @@
             app:srcCompat="@drawable/weapon" />
 
         <TextView
+            android:id="@+id/textViewWeapon"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
@@ -336,6 +339,7 @@
             app:srcCompat="@drawable/transport" />
 
         <TextView
+            android:id="@+id/textViewTransport"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
@@ -372,6 +376,7 @@
             app:srcCompat="@drawable/survival" />
 
         <TextView
+            android:id="@+id/textViewSurvival"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/freemono"
@@ -413,6 +418,7 @@
             app:srcCompat="@drawable/settings" />
 
         <TextView
+            android:id="@+id/textViewSettings"
             android:layout_width="193dp"
             android:layout_height="27dp"
             android:fontFamily="@font/freemono"

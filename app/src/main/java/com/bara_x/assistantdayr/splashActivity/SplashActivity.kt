@@ -1,10 +1,12 @@
-package com.bara_x.assistantdayr
+package com.bara_x.assistantdayr.splashActivity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.bara_x.assistantdayr.MainActivity
+import com.bara_x.assistantdayr.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +20,6 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        },2000)
+        },1100)
     }
 }

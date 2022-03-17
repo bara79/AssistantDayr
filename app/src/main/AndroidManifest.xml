@@ -10,7 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
-            android:name=".SplashActivity"
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.SurvivalListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.TransportListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.WeaponListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.EquipmentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.EnemyListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.ComponentsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.CharacterListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.FoodListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".listActivity.MedicineListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashActivity.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Splash">
             <intent-filter>
@@ -18,17 +48,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
-            android:name=".QuestListActivity"
+            android:name=".listActivity.QuestListActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
