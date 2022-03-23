@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".Transport.DescriptionActivityTransport"
+            android:exported="false" />
+        <activity
             android:name=".settings.SettingsActivity"
             android:exported="false" />
         <activity
             android:name=".listActivity.SurvivalListActivity"
             android:exported="false" />
         <activity
-            android:name=".listActivity.TransportListActivity"
+            android:name=".Transport.TransportListActivity"
             android:exported="false" />
         <activity
             android:name=".listActivity.WeaponListActivity"

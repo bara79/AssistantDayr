@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr
+package com.bara_x.assistantdayr.Transport
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bara_x.assistantdayr.R
 
 class AdapterTransport(val transportList: ArrayList<Transport>) :
     RecyclerView.Adapter<AdapterTransport.TransportHolder>() {
