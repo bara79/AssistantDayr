@@ -40,7 +40,7 @@
             android:name=".listActivity.FoodListActivity"
             android:exported="false" />
         <activity
-            android:name=".listActivity.MedicineListActivity"
+            android:name=".medicine.MedicineListActivity"
             android:exported="false" />
         <activity
             android:name=".splashActivity.SplashActivity"
