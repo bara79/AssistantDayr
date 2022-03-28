@@ -8,7 +8,7 @@
     tools:context=".Transport.DescriptionActivityTransport">
 
     <TextView
-        android:id="@+id/heading"
+        android:id="@+id/heading_transport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="16dp"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/heading">
+        app:layout_constraintTop_toBottomOf="@+id/heading_transport">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -37,7 +37,7 @@
 
 
             <ImageView
-                android:id="@+id/image_heading"
+                android:id="@+id/image_heading_transport"
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -47,20 +47,20 @@
                 app:srcCompat="@drawable/bicycle" />
 
             <TextView
-                android:id="@+id/news"
+                android:id="@+id/description_transport"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:lineHeight="24dp"
                 android:paddingHorizontal="16dp"
-                android:text="@string/moto"
+                android:text="@string/telega"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_heading" />
+                app:layout_constraintTop_toBottomOf="@+id/image_heading_transport" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

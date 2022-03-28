@@ -1,32 +1,39 @@
 package com.bara_x.assistantdayr.Transport
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
+import com.bara_x.assistantdayr.medicine.MedicineListActivity
 
-class AdapterTransport(val transportList: ArrayList<Transport>) :
-    RecyclerView.Adapter<AdapterTransport.TransportHolder>() {
+// адаптер ресайклер вью
 
-    class TransportHolder(item: View, listener: onItemClickListener) : RecyclerView.ViewHolder(item) {
 
-        val ivTransport: ImageView = itemView.findViewById(R.id.ivTransportItem)
+class rvAdapterTransport(val transportList: ArrayList<Transport>) :
+    RecyclerView.Adapter<rvAdapterTransport.TransportHolder>() {
+
+    class TransportHolder(item: View, listener: onItemClickListener) :
+        RecyclerView.ViewHolder(item) {
+
+        /*  val textView6 : TextView = itemView.findViewById(R.id.textView6)
+         *  рослушивание кнопки в ресайкл вью
+         *  оба ментода применимы
+         */
+
+        val ivTransport = itemView.findViewById<ImageView>(R.id.ivTransportItem)
         val tvTransport = itemView.findViewById<TextView>(R.id.tvTransportItem)
-        //  val textView6 : TextView = itemView.findViewById(R.id.textView6)
 
-    init {
-
-        itemView.setOnClickListener {
-
-            listener.onItemClick(absoluteAdapterPosition)
-
+        init {
+            itemView.setOnClickListener {
+                listener.onItemClick(absoluteAdapterPosition)
+            }
         }
-
-    }
-
     }
 
     private lateinit var mListener: onItemClickListener

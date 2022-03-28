@@ -1,12 +1,18 @@
-package com.bara_x.assistantdayr.listActivity
+package com.bara_x.assistantdayr.Transport.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.webkit.WebView
 import com.bara_x.assistantdayr.R
 
-class MedicineListActivity : AppCompatActivity() {
+class CartDescription : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_medicine_list)
+        setContentView(R.layout.activity_cart_description)
+
     }
+
+
 }

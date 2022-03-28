@@ -3,18 +3,25 @@ package com.bara_x.assistantdayr.Transport
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
+import com.bara_x.assistantdayr.Transport.Activity.CartDescription
+import com.bara_x.assistantdayr.listActivity.CharacterListActivity
+import com.bara_x.assistantdayr.listActivity.WeaponListActivity
+import com.google.android.material.navigation.NavigationView
+
+// отрисовывается экран с транспортом
 
 class TransportListActivity : AppCompatActivity() {
 
     private lateinit var newRecyclerView: RecyclerView
     private lateinit var newArrayList: ArrayList<Transport>
     lateinit var imageId: Array<Int>
-    lateinit var heading: Array<String>
-    lateinit var news : Array<String>
-
+    lateinit var headingTransport: Array<String>
+    lateinit var description: Array<String>
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,39 +29,79 @@ class TransportListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_transport_list)
 
 
-
+//массивы с данными для заполнения
         imageId = arrayOf(
 
-            R.drawable.broken_bicycle
-//            R.drawable.bicycle,
-//            R.drawable.bicycle_cart,
-//            R.drawable.motocart_broken,
-//            R.drawable.motocart,
-//            R.drawable.broken_moto,
-//            R.drawable.moto,
-//            R.drawable.disassemble_moto
-        )
-        heading = arrayOf(
-            "Сломанный велосипед"
-//            "Велосипед",
-//            "Велосипед с тележкой",
-//            "Сломаная мототележка",
-//            "Мототележка",
-//            "Сломаный мотоцикл",
-//            "Мотоцикл",
-//            "Разобранный мотоцикл"
-            // для перевода строковых значений
-            // getString(R.string.moto )
-        )
+            R.drawable.telega,
+            R.drawable.bicycle,
+            R.drawable.moto,
+            R.drawable.classic_mobile,
+            R.drawable.vaz2101,
+            R.drawable.gaz24,
+            R.drawable.uaz,
+            R.drawable.uaz452,
+            R.drawable.gaz66,
+            R.drawable.zil130,
+            R.drawable.kamaz,
+            R.drawable.bav485,
+            R.drawable.kraz255,
+            R.drawable.mi8,
+            R.drawable.polar_atv,
+            R.drawable.raft,
+            R.drawable.motorboat,
+            R.drawable.belaz
 
-        news = arrayOf(
-        getString(R.string.moto)
 
         )
+        headingTransport = arrayOf(
+
+            getString(R.string.telega),
+            getString(R.string.bicycle),
+            getString(R.string.motocycle),
+            getString(R.string.clasic_mobile),
+            getString(R.string.vaz2101),
+            getString(R.string.gaz24),
+            getString(R.string.uaz),
+            getString(R.string.uaz452),
+            getString(R.string.gaz66),
+            getString(R.string.zil130),
+            getString(R.string.kamaz),
+            getString(R.string.bav485),
+            getString(R.string.kraz255),
+            getString(R.string.mi8),
+            getString(R.string.polar_atv),
+            getString(R.string.raft),
+            getString(R.string.motorboat),
+            getString(R.string.belaz)
+
+        )
+        /*      description = arrayOf(
+                  getString(R.string.telega_discription),
+                  getString(R.string.bicycle_discription),
+                  getString(R.string.motocycle_discription),
+                  getString(R.string.clasic_mobile_discription),
+                  getString(R.string.vaz2101_discription),
+                  getString(R.string.gaz24_discription),
+                  getString(R.string.uaz_discription),
+                  getString(R.string.uaz452_discription),
+                  getString(R.string.gaz66_discription),
+                  getString(R.string.zil130_discription),
+                  getString(R.string.kamaz_discription),
+                  getString(R.string.bav485_discription),
+                  getString(R.string.kraz255_discription),
+                  getString(R.string.mi8_discription),
+                  getString(R.string.polar_atv_discription),
+                  getString(R.string.raft_discription),
+                  getString(R.string.motorboat_discription),
+                  getString(R.string.belaz_discription)
+              )
+
+         */
 
         newRecyclerView = findViewById(R.id.rcViewTransport)
-        newRecyclerView.layoutManager = GridLayoutManager(this@TransportListActivity, 3)
 
+        // настроил в активили
+        // newRecyclerView.layoutManager = GridLayoutManager(this@TransportListActivity, 3)
 
 
         newArrayList = arrayListOf<Transport>()
@@ -65,33 +112,155 @@ class TransportListActivity : AppCompatActivity() {
 
     private fun getUserdata() {
         for (i in imageId.indices) {
-            val transport = Transport(imageId[i], heading[i])
+            val transport = Transport(imageId[i], headingTransport[i])
             newArrayList.add(transport)
         }
 
 
-        val adapter = AdapterTransport(newArrayList)
+        val adapter = rvAdapterTransport(newArrayList)
         newRecyclerView.adapter = adapter
-        adapter.setOnItemClickListener(object : AdapterTransport.onItemClickListener {
+        adapter.setOnItemClickListener(object : rvAdapterTransport.onItemClickListener {
 
             override fun onItemClick(position: Int) {
+//                Toast.makeText(
+//                    this@TransportListActivity,
+//                    "нажали на кнопку $position",
+//                    Toast.LENGTH_SHORT
+//                ).show()
+/*
+               // переход на экран с описанием транспорт открытие нового активити в данном случае  descriptionactivitytransport
 
+                  val intent =
+                      Intent(this@TransportListActivity, DescriptionActivityTransport::class.java)
 
-                //Toast.makeText(this@TransportListActivity,"нажали на кнопку $position", Toast.LENGTH_SHORT).show()
+               //  передаем на descriptionactivitytransport описание, картинку и заголовок
+                  intent.putExtra("heading", newArrayList[position].title)
+                  intent.putExtra("imageId", newArrayList[position].imageId)
+                  intent.putExtra("description", description[position])
 
-                val intent  = Intent (this@TransportListActivity, DescriptionActivityTransport::class.java)
-                intent.putExtra("heading",newArrayList[position].title)
-                intent.putExtra("imageId",newArrayList[position].imageId)
-                intent.putExtra("news",news[position])
-                startActivity(intent)
+                 // стартуем данное активити
+                  startActivity(intent)
+*/
+                if (position == 0) {
+                    val intent =
+                        Intent(this@TransportListActivity, CartDescription::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 1) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 2) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 3) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 4) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 5) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 6) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 7) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 8) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 9) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 10) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 11) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 12) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 13) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 14) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 15) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 16) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 17) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 18) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
 
             }
-
-
         })
-
-
     }
+
+
 }
 
 

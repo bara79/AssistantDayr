@@ -1,13 +1,52 @@
 <resources>
+    <string name="quests">КВЕСТЫ</string>
+
+    <!-- названия транспорта для ресайклвью-->
     <string name="app_name">AssistantDayr</string>
-    <string name="moto">МотоциклMr Bidens new goal includes having 160 million adults fully vaccinated by Independence Day.
-        The target is well within reach as 105 million have already had the required jabs, and the US is vaccinating nearly a million adults per day.
-        But the vaccination rate is half of what it was just three weeks ago.
-        Mr Biden said his administration was working to win over "doubters" about the shots.
-        Israel - a world leader in vaccination rates - has nearly fully reopened its economy and seen its number of new coronavirus cases crash to almost zero, with just over 60% of the population having received at least one shot.
-        Israel may be close to herd immunity to Covid
-        Herd immunity happens when enough of a population has protection against an infection that it stops being able to spread - and even people who don\'t themselves have immunity are indirectly protected.
-        For Covid the estimated thre</string>
+    <string name="telega">Телега</string>
+    <string name="bicycle">Велосипед</string>
+    <string name="motocycle">Мотоцикл</string>
+    <string name="clasic_mobile">ЗАЗ-968</string>
+    <string name="vaz2101">ВАЗ-2101</string>
+    <string name="gaz24">ГАЗ-24</string>
+    <string name="uaz">УАЗ-469</string>
+    <string name="uaz452">УАЗ-452</string>
+    <string name="gaz66">ГАЗ-66</string>
+    <string name="zil130">ЗИЛ-130</string>
+    <string name="kamaz">Камаз</string>
+    <string name="bav485">БАВ-485</string>
+    <string name="kraz255">КрАЗ-255</string>
+    <string name="mi8">Ми-8</string>
+    <string name="polar_atv">Арктический вездеход</string>
+    <string name="raft">Плот</string>
+    <string name="motorboat">Моторная лодка</string>
+    <string name="belaz">БелАЗ</string>
+
+
+    <!-- описание транспорта для карточки транспорта -->
+    <string name="telega_discription">Тележка — самое простое устройство для транспортировки грузов. По игровой механике относится к лёгкому транспорту, так как в окне снаряжения занимает слот, предназначенный для него. С тележкой Выживший передвигается так же медленно, как и пешком, однако, может увезти гораздо больший груз.</string>
+
+    <string name="bicycle_discription">Велосипед — лёгкий транспорт, обладающий минимальной грузоподъёмностью,
+        однако, дающий существенную прибавку к скорости по сравнению с передвижением пешком.
+        Может быть целым, повреждённым и сломанным.</string>
+    <string name="motocycle_discription">Мотоцикл — бензиновый транспорт. Обладает малым расходом топлива и малой грузоподъёмностью. Бывает целый, сломанный и разобранный.</string>
+    <string name="clasic_mobile_discription">ЗАЗ-968 — средний транспорт, который можно собрать с помощью мастера в Туле на 4 уровне мастерской. В народе его называют «Запорожец».</string>
+    <string name="vaz2101_discription">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
+    <string name="gaz24_discription">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>
+    <string name="uaz_discription">УАЗ-469 — средний транспорт, который можно собрать с помощью мастера в Ижевске и в Кургане на 3 уровне мастерской. В народе его называют «Уазик».</string>
+    <string name="uaz452_discription">УАЗ-452 — средний транспорт, который можно собрать с помощью мастера в Ростове-на-Дону на 3 уровне мастерской и в Новосибирске на 2 уровне мастерской. Обладает самой высокой грузоподъёмностью и самым большим расходом топлива среди бензинового транспорта. В народе его называют «Буханкой» или «Таблеткой».</string>
+    <string name="gaz66_discription">ГАЗ-66 — транспорт, который можно собрать с помощью мастера в Свердловске и в Красноярске на 3 уровне мастерской или купить в магазине за 2000 крышек. В народе его называют «Шишига» или «Шишка».</string>
+    <string name="zil130_discription">ЗИЛ-130 — тяжёлый транспорт, который можно собрать с помощью мастера в Магнитогорске на 3 уровне мастерской. Хорошо подходит для снабжения базы тяжёлыми ресурсами</string>
+    <string name="kamaz_discription">Камаз — тяжёлый транспорт, который можно собрать с помощью мастера в Омске на 3 уровне мастерской. Один из тех, который нельзя поднять в разобранном или сломанном виде. Хорошо подходит для снабжения базы тяжёлыми ресурсами</string>
+    <string name="bav485_discription">БАВ-485 (Большой Автомобиль Водоплавающий) — тяжёлый транспорт, который можно собрать самостоятельно. Автомобиль может плавать. Не подвержен износу.</string>
+    <string name="kraz255_discription">КрАЗ-255 — тяжёлый транспорт, который можно собрать с помощью мастера в Тюмени на 4 уровне мастерской или купить в магазине за 4000 крышек. Обладает отличной проходимостью и грузоподъёмностью, а также самым большим расходом топлива в игре. Хорошо подходит для снабжения базы тяжёлыми ресурсами</string>
+    <string name="mi8_discription">Ми-8 — тяжёлый транспортный вертолет, который можно собрать у мастера в Воронеже. Обладает самой высокой проходимостью и подвижностью. Не подвержен износу.</string>
+    <string name="polar_atv_discription">Арктический вездеход — Уникальный Новогодний транспорт в игре Day R. Плавает и преодолевает любую местность с одинаковой скоростью. Не требует ремонта.</string>
+    <string name="raft_discription">Моторная лодка — водный транспорт в игре Day R.</string>
+    <string name="motorboat_discription">Самодельный плот — водный транспорт, который можно собрать самостоятельно. Позволяет передвигаться по воде и по болоту. Не подвержен износу. Также самодельный плот является компонентом для создания плота с мотором.</string>
+    <string name="belaz_discription">БелАЗ — уникальный транспорт, единственным способом получить который является прохождение квеста «Город на колесах». Обладает самой высокой грузоподъёмностью в игре и не требует топлива. В народе его называют «Белка».</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
