@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".Transport.Activity.CartDescription"
+            android:exported="false" />
+        <activity
             android:name=".Transport.DescriptionActivityTransport"
             android:exported="false" />
         <activity

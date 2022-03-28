@@ -8,6 +8,9 @@ import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
+import com.bara_x.assistantdayr.Transport.Activity.CartDescription
+import com.bara_x.assistantdayr.listActivity.CharacterListActivity
+import com.bara_x.assistantdayr.listActivity.WeaponListActivity
 import com.google.android.material.navigation.NavigationView
 
 // отрисовывается экран с транспортом
@@ -97,9 +100,8 @@ class TransportListActivity : AppCompatActivity() {
 
         newRecyclerView = findViewById(R.id.rcViewTransport)
 
-      // настроил в активили
-       // newRecyclerView.layoutManager = GridLayoutManager(this@TransportListActivity, 3)
-
+        // настроил в активили
+        // newRecyclerView.layoutManager = GridLayoutManager(this@TransportListActivity, 3)
 
 
         newArrayList = arrayListOf<Transport>()
@@ -139,9 +141,125 @@ class TransportListActivity : AppCompatActivity() {
                  // стартуем данное активити
                   startActivity(intent)
 */
+                if (position == 0) {
+                    val intent =
+                        Intent(this@TransportListActivity, CartDescription::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 1) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 2) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 3) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 4) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 5) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 6) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 7) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 8) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 9) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 10) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 11) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 12) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 13) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 14) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 15) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 16) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 17) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+                if (position == 18) {
+                    val intent =
+                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                    startActivity(intent)
+
+                }
+
             }
         })
     }
+
 
 }
 
