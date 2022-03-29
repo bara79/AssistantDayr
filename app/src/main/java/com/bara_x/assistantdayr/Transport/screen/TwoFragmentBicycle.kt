@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.bara_x.assistantdayr.R
 
-class TwoFragment : Fragment() {
+class TwoFragmentBicycle : Fragment() {
 
 
     override fun onCreateView(
