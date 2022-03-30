@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trebuemiy_lvl">Требуемый уровень</string>
+    <string name="quests">КВЕСТЫ</string>
+    <string name="telega">Телега</string>
+    <string name="bicycle">Велосипед</string>
+    <string name="motocycle">Мотоцикл</string>
+    <string name="clasic_mobile">ЗАЗ-968</string>
+    <string name="vaz2101">ВАЗ-2101</string>
+    <string name="gaz24">ГАЗ-24</string>
+    <string name="uaz">УАЗ-469</string>
+    <string name="uaz452">УАЗ-452</string>
+    <string name="gaz66">ГАЗ-66</string>
+    <string name="zil130">ЗИЛ-130</string>
+    <string name="kamaz">Камаз</string>
+    <string name="bav485">БАВ-485</string>
+    <string name="kraz255">КрАЗ-255</string>
+    <string name="mi8">Ми-8</string>
+    <string name="polar_atv">Арктический вездеход</string>
+    <string name="raft">Плот</string>
+    <string name="motorboat">Моторная лодка</string>
+    <string name="belaz">БелАЗ</string>
+    <string name="specifications">ХАРАКТЕРИСТИКИ</string>
+    <string name="repair">РЕМОНТ</string>
+    <string name="yes">ДА</string>
+    <string name="instrument">Инструмент</string>
+    <string name="screw">Винт</string>
+    <string name="engine_oil">Машинное масло</string>
+    <string name="assemble">СБОРКА</string>
+    <string name="production_method">СПОСОБ ПОЛУЧЕНИЯ</string>
+</resources>
