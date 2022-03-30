@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr.Transport.screen
+package com.bara_x.assistantdayr.transport.screen
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.bara_x.assistantdayr.R
 
-class ThereeFragment : Fragment() {
+
+class BicycleFirstFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +16,7 @@ class ThereeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_theree, container, false)
+        return inflater.inflate(R.layout.fragment_first_bicycle, container, false)
     }
 
 }

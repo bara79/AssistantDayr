@@ -1,9 +1,8 @@
-package com.bara_x.assistantdayr.Transport.Activity
+package com.bara_x.assistantdayr.transport.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bara_x.assistantdayr.R
-import com.bara_x.assistantdayr.Transport.adapterViewPager.PagerAdapter
+import com.bara_x.assistantdayr.transport.adapterViewPager.PagerAdapter
 import com.bara_x.assistantdayr.databinding.ActivityBicycleDescriptionBinding
 
 class BicycleDescription : AppCompatActivity() {

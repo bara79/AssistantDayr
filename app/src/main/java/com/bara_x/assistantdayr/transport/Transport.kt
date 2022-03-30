@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr.Transport
+package com.bara_x.assistantdayr.transport
 
 
 // класс для итема в ресайклер вью

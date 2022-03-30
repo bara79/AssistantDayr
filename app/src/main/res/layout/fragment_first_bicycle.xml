@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Transport.screen.FirstFragment">
+    tools:context=".transport.screen.BicycleFirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
