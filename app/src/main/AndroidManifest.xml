@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
-            android:name=".Transport.Activity.CartDescription"
+            android:name=".transport.activity.CartDescription"
             android:exported="false" />
         <activity
-            android:name=".Transport.DescriptionActivityTransport"
+            android:name=".transport.activity.BicycleDescription"
             android:exported="false" />
         <activity
             android:name=".settings.SettingsActivity"
@@ -22,7 +22,7 @@
             android:name=".listActivity.SurvivalListActivity"
             android:exported="false" />
         <activity
-            android:name=".Transport.TransportListActivity"
+            android:name=".transport.TransportListActivity"
             android:exported="false" />
         <activity
             android:name=".listActivity.WeaponListActivity"

@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_light"
-    tools:context=".transport.activity.CartDescription">
-
+    tools:context=".transport.screen.TwoFragmentBicycle">
 
     <TextView
         android:id="@+id/textView8"
@@ -15,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/freemono"
         android:gravity="center"
-        android:text="@string/telega"
+        android:text="Велосипед"
         android:textColor="@color/black"
         android:textSize="32dp"
         android:textStyle="bold"
@@ -31,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/telega" />
+        app:srcCompat="@drawable/bicycle" />
 
     <View
         android:layout_width="match_parent"
@@ -333,7 +332,6 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
                 </TableRow>
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -461,7 +459,6 @@
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -570,7 +567,6 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
                 </TableRow>
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -597,7 +593,6 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
                 </TableRow>
-
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -661,5 +656,8 @@
     </ScrollView>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
