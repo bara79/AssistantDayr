@@ -115,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Вес"
+                        android:text="@string/weight"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -142,7 +142,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Грузоподъемность"
+                        android:text="@string/load_capacity"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -170,7 +170,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Макс. пробег"
+                        android:text="@string/max_mileage"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -200,7 +200,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Макс. скорость"
+                        android:text="@string/max_speed"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -261,7 +261,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="нет"
+                        android:text="@string/no"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -349,7 +349,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="НЕТ"
+                    android:text="@string/no"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

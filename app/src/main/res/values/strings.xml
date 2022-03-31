@@ -24,17 +24,26 @@
     <string name="telega">Cart</string>
     <string name="specifications">SPECIFICATIONS</string>
     <string name="repair">REPAIR</string>
+    <string name="yes">YES</string>
+    <string name="instrument">Tool kit</string>
+    <string name="screw">Screw</string>
+    <string name="engine_oil">Engine oil</string>
+    <string name="assemble">ASSEMBLE</string>
+    <string name="production_method">PRODUCTION METHOD</string>
+    <string name="bicycle_cart">Bicycle with a cart</string>
+    <string name="load_capacity">Load capacity</string>
+
+
 
 
     <!-- описание транспорта для карточки транспорта -->
     <!-- телега-->
-    <string name="telega_description" translatable="false">Тележка — самое простое устройство для транспортировки грузов.
-        По игровой механике относится к лёгкому транспорту, так как в окне снаряжения занимает слот,
-        предназначенный для него. С тележкой Выживший передвигается так же медленно, как и пешком,
-        однако, может увезти гораздо больший груз. При использовании в роли транспортного средства
-        тележка подвергается износу и может быть отремонтирована. При достижении 0% прочности она
-        ломается и мы получаем 2 части велосипеда. Также тележка может быть использована для сборки
-        велосипеда с тележкой или разобрана на компоненты.</string>
+    <string name="telega_description">A trolley is the simplest device for transporting goods.
+        According to the game mechanics, it refers to light transport, since it occupies a slot designed
+        for it in the equipment window. With a cart, the Survivor moves as slowly as on foot, however,
+        he can take away a much larger load. When used as a vehicle, the trolley is subject to wear and
+        can be repaired. When reaching 0% strength, it breaks and we get 2 parts of the bike. The trolley
+        can also be used to assemble a bicycle with a trolley or disassembled into components.</string>
 
     <string name="telega_metod_polucenia" translatable="false">Купить в поселении под Ленинградом за 125 черных рублей.
         Найти случайным образом в следующих зданиях: Стройка (любой сектор). Воинская часть (склад)</string>
@@ -90,12 +99,16 @@
     <string name="raft_description" translatable="false">Моторная лодка — водный транспорт в игре Day R.</string>
     <string name="motorboat_description" translatable="false">Самодельный плот — водный транспорт, который можно собрать самостоятельно. Позволяет передвигаться по воде и по болоту. Не подвержен износу. Также самодельный плот является компонентом для создания плота с мотором.</string>
     <string name="belaz_description" translatable="false">БелАЗ — уникальный транспорт, единственным способом получить который является прохождение квеста «Город на колесах». Обладает самой высокой грузоподъёмностью в игре и не требует топлива. В народе его называют «Белка».</string>
-    <string name="yes">YES</string>
-    <string name="instrument">Instrument</string>
-    <string name="screw">Screw</string>
-    <string name="engine_oil">Engine oil</string>
-    <string name="assemble">ASSEMBLE</string>
-    <string name="production_method">PRODUCTION METHOD</string>
+    <string name="weight">Weight</string>
+    <string name="max_mileage">Max. mileage</string>
+    <string name="max_speed">Max. speed</string>
+    <string name="kmh_9">9km/h</string>
+    <string name="kg_35">35kg</string>
+    <string name="kg_70">70kg</string>
+    <string name="km_1000">1000km</string>
+    <string name="pcs_1">1pcs</string>
+    <string name="no">NO</string>
+    <string name="experience">Experience</string>
 
 
 </resources>
