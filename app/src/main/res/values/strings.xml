@@ -32,8 +32,27 @@
     <string name="production_method">PRODUCTION METHOD</string>
     <string name="bicycle_cart">Bicycle with a cart</string>
     <string name="load_capacity">Load capacity</string>
-
-
+    <string name="weight">Weight</string>
+    <string name="max_mileage">Max. mileage</string>
+    <string name="max_speed">Max. speed</string>
+    <string name="kmh_9">9km/h</string>
+    <string name="kg_35">35kg</string>
+    <string name="kg_70">70kg</string>
+    <string name="km_1000">1000km</string>
+    <string name="pcs_1">1pcs</string>
+    <string name="no">NO</string>
+    <string name="experience">Experience</string>
+    <string name="bicycle_parts">Bicycle parts</string>
+    <string name="glue_duc">Glue or duct tape</string>
+    <string name="pcs_3">3pcs</string>
+    <string name="lvl_20">20lvl</string>
+    <string name="lvl_10">10lvl</string>
+    <string name="xp_30" translatable="false">30xp</string>
+    <string name="final_result">Final result</string>
+    <string name="pcs_2">2pcs</string>
+    <string name="gr_40">40gr</string>
+    <string name="xp_150" translatable="false">150xp</string>
+    <string name="wire">Wire</string>
 
 
     <!-- описание транспорта для карточки транспорта -->
@@ -69,18 +88,20 @@
         Может быть целым, повреждённым и сломанным.
     </string>
     <string name="bicycle_metod_polucenia_slomaniy" translatable="false">Сломанный велосипед можно
-        случайным образом найти в следующих зданиях: \n Школа (спортзал). \n Почтовое отделение.
-        \n Уцелевший дом. \n Дорога в городах.</string>
+        случайным образом найти в следующих зданиях: \n- Школа (спортзал). \n- Почтовое отделение.
+        \n- Уцелевший дом. \n- Дорога в городах.</string>
 
     <string name="bicycle_cart_description" translatable="false">Велосипед с тележкой — лёгкий
         транспорт, совмещающий в себе скорость велосипеда с грузоподъёмностью тележки.
     </string>
+
     <string name="bicycle_cart_metod_polucenia" translatable="false">Собрать велосипед с тележкой можно
         самостоятельно, начиная с 20 уровня или у мастера в поселении Олонец, при наличии компонентов для сборки.
-</string>
+    </string>
 
-
-
+    <string name="motorized_cart_description" translatable="false">Мототележка — первый наземный бензиновый транспорт, доступный игроку, является модификацией велосипеда с тележкой. Обладает наименьшим расходом топлива среди среднего транспорта, но низкой скоростью и малой грузоподъёмностью. Бывает целая и сломанная.
+    </string>
+    <string name="motorized_cart_metod_polucenia" translatable="false">Единственным способом получения мототележки является самостоятельная сборка, начиная с 30 уровня; схема открывается за 6 очков исследований.</string>
 
 
     <string name="motocycle_description" translatable="false">Мотоцикл — бензиновый транспорт. Обладает малым расходом топлива и малой грузоподъёмностью. Бывает целый, сломанный и разобранный.</string>
@@ -99,16 +120,16 @@
     <string name="raft_description" translatable="false">Моторная лодка — водный транспорт в игре Day R.</string>
     <string name="motorboat_description" translatable="false">Самодельный плот — водный транспорт, который можно собрать самостоятельно. Позволяет передвигаться по воде и по болоту. Не подвержен износу. Также самодельный плот является компонентом для создания плота с мотором.</string>
     <string name="belaz_description" translatable="false">БелАЗ — уникальный транспорт, единственным способом получить который является прохождение квеста «Город на колесах». Обладает самой высокой грузоподъёмностью в игре и не требует топлива. В народе его называют «Белка».</string>
-    <string name="weight">Weight</string>
-    <string name="max_mileage">Max. mileage</string>
-    <string name="max_speed">Max. speed</string>
-    <string name="kmh_9">9km/h</string>
-    <string name="kg_35">35kg</string>
-    <string name="kg_70">70kg</string>
-    <string name="km_1000">1000km</string>
-    <string name="pcs_1">1pcs</string>
-    <string name="no">NO</string>
-    <string name="experience">Experience</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="motorized_cart">Motorized cart</string>
+    <string name="kg_50">50kg</string>
+    <string name="kg_120">120kg</string>
+    <string name="km_3000">3000km</string>
+    <string name="kmh_20">20km/h</string>
+    <string name="pcs_5">5pcs</string>
+    <string name="lvl_30">30lvl</string>
+    <string name="gr_30">30gr</string>
+    <string name="xp_850" translatable="false">850xp</string>
 
 
 </resources>

@@ -265,7 +265,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Части велосипеда"
+                        android:text="@string/bicycle_parts"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -378,7 +378,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Итоговый результат"
+                        android:text="@string/final_result"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -490,7 +490,7 @@
                         android:layout_weight="0"
                         android:layout_marginEnd="50dp"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="10ур"
+                        android:text="@string/lvl_10"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -506,7 +506,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Части велосипеда"
+                        android:text="@string/bicycle_parts"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -518,7 +518,7 @@
                         android:layout_weight="0"
                         android:layout_marginEnd="50dp"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="3шт"
+                        android:text="@string/pcs_3"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -575,7 +575,7 @@
                         android:layout_weight="0"
                         android:layout_marginEnd="50dp"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="3шт"
+                        android:text="@string/pcs_3"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -617,7 +617,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Клей или Изолента"
+                        android:text="@string/glue_duc"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -629,7 +629,7 @@
                         android:layout_weight="0"
                         android:layout_marginEnd="50dp"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="3шт"
+                        android:text="@string/pcs_3"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -658,7 +658,7 @@
                         android:layout_weight="0"
                         android:layout_marginEnd="50dp"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="30хр"
+                        android:text="@string/xp_30"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
