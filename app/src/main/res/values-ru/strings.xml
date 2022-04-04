@@ -66,6 +66,9 @@
     <string name="pcs_5">5шт</string>
     <string name="lvl_30">30ур</string>
     <string name="gr_30">30гр</string>
+    <string name="kg_0">0кг</string>
+    <string name="km_0">0км</string>
+    <string name="kmh_0">0км/ч</string>
 
 
 </resources>
