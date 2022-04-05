@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_light"
-    tools:context=".transport.screen.bicycle.BicycleFirstFragment">
+    tools:context=".transport.screen.motocycle.MotocycleOneFragment">
 
     <TextView
         android:id="@+id/textView8"
@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/freemono"
         android:gravity="center"
-        android:text="Сломанный велосипед"
+        android:text="Разобранный мотоцикл"
         android:textColor="@color/black"
         android:textSize="32dp"
         android:textStyle="bold"
@@ -30,9 +30,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/broken_bicycle" />
+        app:srcCompat="@drawable/disassemble_moto" />
 
     <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginStart="16dp"
@@ -66,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/bicycle_slomaniy_description"
+                android:text="Разобранный мотоцикл можно получить только после разборки сломанного. При разломке разобранного мотоцикал получается х500-х750 металлолома"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -124,9 +125,10 @@
                         android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="15кг"
+                        android:text="@string/kg_350"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -151,14 +153,45 @@
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="0кг"
+                        android:text="@string/kg_0"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                 </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="Топливо"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/no"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -179,9 +212,10 @@
                         android:id="@+id/textView12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="0км"
+                        android:text="@string/km_0"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -209,9 +243,39 @@
                         android:id="@+id/textView15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/kmh_0"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="0км/ч"
+                        android:text="Расход топлива"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="0л/км"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -285,7 +349,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="СПОСОБ ПОЛУЧЕНИЯ"
+                android:text="@string/production_method"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -305,7 +369,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/bicycle_metod_polucenia_slomaniy"
+                android:text="Разобранный мотоцикл можно получить только после разборки сломанного."
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -325,7 +389,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="СБОРКА"
+                android:text="@string/assemble"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -355,24 +419,6 @@
                     android:textStyle="bold" />
 
             </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/textView27"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/freemonospaced"
-                    android:text="Сломанный велосипед может быть разобран на части велосипеда."
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            </TableRow>
-
         </LinearLayout>
 
     </ScrollView>

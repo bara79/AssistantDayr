@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_light"
-    tools:context=".transport.screen.MotorizedCartBrokenFragment">
+    tools:context=".transport.screen.bicycle.MotorizedCartBrokenFragment">
 
     <TextView
         android:id="@+id/textView8"
@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/freemono"
         android:gravity="center"
-        android:text="Сломаная мототележка"
+        android:text="@string/broken_motorized_cart"
         android:textColor="@color/black"
         android:textSize="32dp"
         android:textStyle="bold"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_light"
-    tools:context=".transport.screen.bicycle.BicycleTheereFragment">
+    tools:context=".transport.screen.motocycle.MotocycleThreeFragment">
 
     <TextView
         android:id="@+id/textView8"
@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/freemono"
         android:gravity="center"
-        android:text="@string/bicycle_cart"
+        android:text="@string/motocycle"
         android:textColor="@color/black"
         android:textSize="32dp"
         android:textStyle="bold"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/bicycle_cart" />
+        app:srcCompat="@drawable/moto" />
 
     <View
         android:id="@+id/view"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/bicycle_cart_description"
+                android:text="@string/motocycle_opisanie"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -128,7 +128,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kg_35"
+                        android:text="@string/kg_350"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -156,12 +156,42 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kg_70"
+                        android:text="250кг"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                 </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="Топливо"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="Бензин"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -185,7 +215,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/km_1000"
+                        android:text="4000км"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -216,7 +246,36 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kmh_9"
+                        android:text="30км/ч"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="Расход топлива"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="6л/100км"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -266,7 +325,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/bicycle_parts"
+                        android:text="Части мотоцикла"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -295,7 +354,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/glue_duc"
+                        android:text="@string/engine_oil"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -303,11 +362,11 @@
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/pcs_3"
+                        android:text="50г"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -324,7 +383,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/screw"
+                        android:text="Изолента"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -336,7 +395,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/pcs_1"
+                        android:text="@string/pcs_5"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -353,7 +412,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/engine_oil"
+                        android:text="@string/screw"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -365,7 +424,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="25г"
+                        android:text="4шт"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -399,6 +458,34 @@
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/final_result"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="+25%"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </TableRow>
 
             </TableLayout>
@@ -438,7 +525,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/bicycle_cart_metod_polucenia"
+                android:text="@string/"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -482,7 +569,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/trebuemiy_lvl"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -494,7 +581,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/lvl_20"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -511,7 +598,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/bicycle"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -523,7 +610,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/pcs_1"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -540,7 +627,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/telega"
+                    android:text="Мотор бензопилы"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -552,7 +639,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/pcs_1"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -569,7 +656,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/glue_duc"
+                    android:text="Изолента"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -581,7 +668,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/pcs_2"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -600,7 +687,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/wire"
+                    android:text="Дрова"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -612,7 +699,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/pcs_2"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -629,7 +716,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/engine_oil"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -641,7 +728,36 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/gr_40"
+                    android:text="@string/"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/freemonospaced"
+                    android:text="Гвоздь"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0"
+                    android:fontFamily="@font/freemonospaced"
+                    android:text="10"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -658,7 +774,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/instrument"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -670,7 +786,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/yes"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -687,7 +803,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/experience"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -699,7 +815,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/xp_150"
+                    android:text="@string/"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

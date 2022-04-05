@@ -3,9 +3,9 @@ package com.bara_x.assistantdayr.transport.adapterViewPager
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.bara_x.assistantdayr.transport.screen.*
+import com.bara_x.assistantdayr.transport.screen.bicycle.*
 
-class PagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
+class PagerAdapterBicycle(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
     override fun getItemCount(): Int {
         return 5
     }
@@ -17,7 +17,7 @@ class PagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fr
             1 -> BicycleTooFragment()
             2 -> BicycleTheereFragment()
             3 -> MotorizedCartBrokenFragment()
-            else->MotorizedCartFragment()
+            else-> MotorizedCartFragment()
         }
 
     }

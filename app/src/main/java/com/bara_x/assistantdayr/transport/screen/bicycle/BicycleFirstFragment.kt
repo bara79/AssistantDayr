@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr.transport.screen
+package com.bara_x.assistantdayr.transport.screen.bicycle
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

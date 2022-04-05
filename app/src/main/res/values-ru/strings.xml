@@ -69,6 +69,9 @@
     <string name="kg_0">0кг</string>
     <string name="km_0">0км</string>
     <string name="kmh_0">0км/ч</string>
+    <string name="broken_motorized_cart">Сломаная мототележка</string>
+    <string name="kg_350">350кг</string>
+    <string name="razborka">РАЗБОРКА</string>
 
 
 </resources>

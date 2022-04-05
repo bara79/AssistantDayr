@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr.transport.screen
+package com.bara_x.assistantdayr.transport.screen.motocycle
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.bara_x.assistantdayr.R
 
-class BicycleTheereFragment : Fragment() {
+
+class MotocycleTwoFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,8 +16,7 @@ class BicycleTheereFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_theere_bicycle, container, false)
+        return inflater.inflate(R.layout.fragment_motocycle_two, container, false)
     }
-
 
 }

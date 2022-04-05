@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
-import com.bara_x.assistantdayr.listActivity.SurvivalListActivity
 import com.bara_x.assistantdayr.transport.activity.BicycleDescription
 import com.bara_x.assistantdayr.transport.activity.CartDescription
 import com.bara_x.assistantdayr.listActivity.WeaponListActivity
+import com.bara_x.assistantdayr.transport.activity.MotocycleDescription
 
 // отрисовывается экран с транспортом
 
@@ -116,7 +116,7 @@ class TransportListActivity : AppCompatActivity() {
                 }
                 if (position == 2) {
                     val intent =
-                        Intent(this@TransportListActivity, BicycleDescription::class.java)
+                        Intent(this@TransportListActivity, MotocycleDescription::class.java)
                     startActivity(intent)
 
                 }
