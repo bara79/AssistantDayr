@@ -66,12 +66,24 @@
     <string name="pcs_5">5шт</string>
     <string name="lvl_30">30ур</string>
     <string name="gr_30">30гр</string>
-    <string name="kg_0">0кг</string>
     <string name="km_0">0км</string>
     <string name="kmh_0">0км/ч</string>
     <string name="broken_motorized_cart">Сломаная мототележка</string>
     <string name="kg_350">350кг</string>
     <string name="razborka">РАЗБОРКА</string>
+    <string name="pcs_4">4шт</string>
+    <string name="kg_0">0кг</string>
+    <string name="gr_50">50гр</string>
+    <string name="gr_100">100гр</string>
+    <string name="pcs_20">20шт</string>
+    <string name="pcs_120">120шт</string>
+    <string name="pcs_100">100шт</string>
+    <string name="sorvigolova">Сорвиголова</string>
+    <string name="sorvigolova_polet">Сорвилолова \"ПОЛЁТ\"</string>
+    <string name="kg_300">300кг</string>
+    <string name="kg_666">666кг</string>
+    <string name="kmh_40">40км/ч</string>
+    <string name="kmh_100">100км/ч</string>
 
 
 </resources>

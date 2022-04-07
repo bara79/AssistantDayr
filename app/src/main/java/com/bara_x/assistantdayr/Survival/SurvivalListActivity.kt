@@ -26,10 +26,7 @@ class SurvivalListActivity : AppCompatActivity() {
 
 
         headingSurvival= arrayOf(
-
-
             //TODO загрузить названия выживания
-
         )
 
     }

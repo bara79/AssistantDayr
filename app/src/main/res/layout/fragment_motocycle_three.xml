@@ -525,7 +525,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/"
+                android:text="@string/motocycle_metod_polucenia"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -569,7 +569,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="Разобранный мотоцикл"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -581,7 +581,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_1"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -598,7 +598,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="Запчасти от мотоцикла "
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -610,7 +610,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_5"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -627,7 +627,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Мотор бензопилы"
+                    android:text="Резиновые детали "
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -639,7 +639,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_4"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -656,7 +656,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Изолента"
+                    android:text="@string/engine_oil"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -668,7 +668,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/gr_100"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -687,7 +687,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Дрова"
+                    android:text="Изолента"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -699,7 +699,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_5"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -716,7 +716,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/wire"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -728,7 +728,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_5"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -745,7 +745,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Гвоздь"
+                    android:text="@string/screw"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -757,7 +757,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="10"
+                    android:text="@string/pcs_3"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -774,7 +774,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="Шины"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -786,7 +786,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_3"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -803,7 +803,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="Свеча зажигания"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -815,12 +815,42 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="0"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/"
+                    android:text="@string/pcs_2"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
             </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/freemonospaced"
+                    android:text="@string/instrument"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0"
+                    android:fontFamily="@font/freemonospaced"
+                    android:text="@string/yes"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
 
 
         </LinearLayout>
