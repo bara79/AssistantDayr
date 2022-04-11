@@ -1,4 +1,4 @@
-package com.bara_x.assistantdayr.Survival
+package com.bara_x.assistantdayr.survival
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,12 +7,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
-import com.bara_x.assistantdayr.transport.rvAdapterTransport
 
-class rvAdapterSurvival(val survivalList: ArrayList<Survival>) :
-    RecyclerView.Adapter<rvAdapterSurvival.SurvivalHolder>() {
+class RvAdapterSurvival(val survivalList: ArrayList<Survival>) :
+    RecyclerView.Adapter<RvAdapterSurvival.SurvivalHolder>() {
 
-    class SurvivalHolder(item: View, listener: rvAdapterTransport.onItemClickListener) :
+    class SurvivalHolder(item: View, listener: onItemClickListener) :
         RecyclerView.ViewHolder(item) {
 
 
@@ -36,30 +35,29 @@ class rvAdapterSurvival(val survivalList: ArrayList<Survival>) :
         mListener = listener
     }
 
-    override fun onCreateViewHolder(
-        parent: ViewGroup,
-        viewType: Int
-    ): rvAdapterSurvival.SurvivalHolder {
+    override fun onCreateViewHolder(parent: ViewGroup,viewType: Int ): SurvivalHolder {
         val itemView =
             LayoutInflater.from(parent.context).inflate(R.layout.survival_item, parent, false)
-        return rvAdapterSurvival.SurvivalHolder(itemView, mListener)
+        return SurvivalHolder(itemView, mListener)
 
     }
 
-    override fun onBindViewHolder(holder: rvAdapterSurvival.SurvivalHolder, position: Int) {
+    override fun onBindViewHolder(holder: SurvivalHolder, position: Int) {
 
-        val currentItem = SurvivalList[position]
-        holder.ivSurvival.setImageResource(currentItem.imageId)
-        holder.tvSurvival.text = currentItem.title
+        val currentItem = survivalList[position]
+        holder.ivSurvival.setImageResource(currentItem.survivalImageId)
+        holder.tvSurvival.text = currentItem.survivalTitle
 
 
     }
 
     override fun getItemCount(): Int {
 
-        return SurvivalList.size
+        return survivalList.size
 
     }
+
+
 
 
 }

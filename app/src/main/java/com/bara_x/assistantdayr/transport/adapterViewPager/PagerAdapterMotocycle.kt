@@ -14,8 +14,8 @@ class PagerAdapterMotocycle (fragmentActivity: FragmentActivity) : FragmentState
         return when(position){
             0->MotocycleOneFragment()
             1->MotocycleTwoFragment()
-            3->MotocycleThreeFragment()
-            4->MotocycleFourFragment()
+            2->MotocycleThreeFragment()
+            3->MotocycleFourFragment()
             else->MotocycleFiveFragment()
         }
     }

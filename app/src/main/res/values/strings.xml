@@ -6,6 +6,7 @@
     <string name="bicycle">Bicycle</string>
     <string name="motocycle">Bike</string>
     <string name="clasic_mobile">ZAZ-968</string>
+    <string name="zaz_razob">ZAZ-968 "Disassembled"</string>
     <string name="vaz2101">VAZ-2101</string>
     <string name="gaz24">GAZ-24</string>
     <string name="uaz">UAZ-469</string>
@@ -41,18 +42,35 @@
     <string name="assemble">ASSEMBLE</string>
     <string name="production_method">PRODUCTION METHOD</string>
 
+
     <string name="load_capacity">Load capacity</string>
     <string name="weight">Weight</string>
     <string name="max_mileage">Max. mileage</string>
     <string name="max_speed">Max. speed</string>
 
 
-    <string name="experience">Experience</string>
+    <string name="opit">Experience</string>
     <string name="bicycle_parts">Bicycle parts</string>
     <string name="glue_duc">Glue or duct tape</string>
     <string name="final_result">Final result</string>
     <string name="razborka">DISASSEMBLY</string>
     <string name="wire">Wire</string>
+
+    <string name="toplivo">Fuel</string>
+    <string name="benzin">Gasoline</string>
+    <string name="dizel">Diesel</string>
+    <string name="rashod_topliva">Fuel consumption</string>
+    <string name="remont_net">REPAIR - NO</string>
+
+    <!-- инструменты -->
+    <string name="lom">Crowbar</string>
+    <string name="nozovka">Hacksaw</string>
+
+
+
+
+    <!-- литров на 100 км -->
+    <string name="rashod_0_100">0l/100km</string>
 
 
     <!-- километры в час -->
@@ -71,11 +89,15 @@
     <string name="kg_300">300kg</string>
     <string name="kg_350">350kg</string>
     <string name="kg_666">666kg</string>
+    <string name="kg_850">850kg</string>
+
+
 
     <!-- расстояние -->
     <string name="km_0">0km</string>
     <string name="km_1000">1000km</string>
     <string name="km_3000">3000km</string>
+    <string name="km_10000">10000km</string>
 
     <!-- штук -->
     <string name="pcs_1">1pcs</string>
@@ -137,10 +159,11 @@
     <string name="sorvigolova_metod_polucenia" translatable="false">Получить череп сорвиголовы за победу над Всадником без головы и собрать мотоцикл из этого черепа. Так же можно купить в магазине в баре «Честный чёрт» за 9000 золотых монет и 1 Знак охотника. Покупается в режиме «Полёт». </string>
 
 
-
     <!--ЗАЗ-->
     <string name="clasic_mobile_description" translatable="false">ЗАЗ-968 — средний транспорт, который можно собрать с помощью мастера в Туле на 4 уровне мастерской. В народе его называют «Запорожец».</string>
+    <string name="clasic_mobile_description_razobrani" translatable="false">Разобранный ЗАЗ-968 или просто «Запорожец». Остается только разобрать на металлолом. Все что могло пригодиться, ужя снято. Но и металл иногда очень нужен.</string>
 
+    <string name="clasic_mobile_" translatable="false"></string>
 
     <string name="vaz2101_description" translatable="false">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
     <string name="gaz24_description" translatable="false">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>

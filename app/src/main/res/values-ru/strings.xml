@@ -39,7 +39,7 @@
     <string name="km_1000">1000км</string>
     <string name="pcs_1">1шт</string>
     <string name="no">НЕТ</string>
-    <string name="experience">Получаемый опыт</string>
+    <string name="opit">Получаемый опыт</string>
     <string name="bicycle_parts">Части велосипеда</string>
     <string name="glue_duc">Клей или изолента</string>
     <string name="pcs_3">3шт</string>
@@ -84,6 +84,17 @@
     <string name="kg_666">666кг</string>
     <string name="kmh_40">40км/ч</string>
     <string name="kmh_100">100км/ч</string>
+    <string name="zaz_razob">ЗАЗ-968 \"разобранный\"</string>
+    <string name="km_10000">10000км</string>
+    <string name="kg_850">850кг</string>
+    <string name="toplivo">Топливо</string>
+    <string name="benzin">Бензин</string>
+    <string name="dizel">Салярка</string>
+    <string name="rashod_topliva">Расход топлива</string>
+    <string name="rashod_0_100">0л/100км</string>
+    <string name="remont_net">РЕМОНТ - НЕТ</string>
+    <string name="lom">Лом</string>
+    <string name="nozovka">Ножовка</string>
 
 
 </resources>
