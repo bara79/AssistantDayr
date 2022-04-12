@@ -35,27 +35,23 @@
     <string name="repair">REPAIR</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
-
+    <string name="razobran">disassembled</string>
+    <string name="slomani">broken</string>
     <string name="instrument">Tool kit</string>
     <string name="screw">Screw</string>
     <string name="engine_oil">Engine oil</string>
     <string name="assemble">ASSEMBLE</string>
     <string name="production_method">PRODUCTION METHOD</string>
-
-
     <string name="load_capacity">Load capacity</string>
     <string name="weight">Weight</string>
     <string name="max_mileage">Max. mileage</string>
     <string name="max_speed">Max. speed</string>
-
-
-    <string name="opit">Experience</string>
+    <string name="opit_polucen">Experience</string>
     <string name="bicycle_parts">Bicycle parts</string>
     <string name="glue_duc">Glue or duct tape</string>
     <string name="final_result">Final result</string>
     <string name="razborka">DISASSEMBLY</string>
     <string name="wire">Wire</string>
-
     <string name="toplivo">Fuel</string>
     <string name="benzin">Gasoline</string>
     <string name="dizel">Diesel</string>
@@ -71,12 +67,14 @@
 
     <!-- литров на 100 км -->
     <string name="rashod_0_100">0l/100km</string>
+    <string name="rashod_7_100">7l/100km</string>
 
 
     <!-- километры в час -->
     <string name="kmh_0">0km/h</string>
     <string name="kmh_9">9km/h</string>
     <string name="kmh_20">20km/h</string>
+    <string name="kmh_30">30km/h</string>
     <string name="kmh_40">40km/h</string>
     <string name="kmh_100">100km/h</string>
 
@@ -97,6 +95,7 @@
     <string name="km_0">0km</string>
     <string name="km_1000">1000km</string>
     <string name="km_3000">3000km</string>
+    <string name="km_4000">4000km</string>
     <string name="km_10000">10000km</string>
 
     <!-- штук -->
@@ -116,6 +115,7 @@
     <string name="lvl_30">30lvl</string>
 
     <!-- получение опыта -->
+    <string name="xp_5" translatable="false">5xp</string>
     <string name="xp_30" translatable="false">30xp</string>
     <string name="xp_150" translatable="false">150xp</string>
     <string name="xp_850" translatable="false">850xp</string>
@@ -134,36 +134,30 @@
     <!-- телега-->
     <string name="telega_description">A trolley is the simplest device for transporting goods. According to the game mechanics, it refers to light transport, since it occupies a slot designed for it in the equipment window. With a cart, the Survivor moves as slowly as on foot, however, he can take away a much larger load. When used as a vehicle, the trolley is subject to wear and can be repaired. When reaching 0% strength, it breaks and we get 2 parts of the bike. The trolley can also be used to assemble a bicycle with a trolley or disassembled into components.</string>
     <string name="telega_metod_polucenia" translatable="false">Купить в поселении под Ленинградом за 125 черных рублей. Найти случайным образом в следующих зданиях: Стройка (любой сектор). Воинская часть (склад)</string>
-
     <!--  велосипед -->
     <string name="bicycle_description" translatable="false">Велосипед — лёгкий транспорт, обладающий минимальной грузоподъёмностью, однако, дающий существенную прибавку к скорости по сравнению с передвижением пешком. Может быть целым, повреждённым и сломанным. При использовании в роли транспортного средства велосипед подвергается износу и может быть отремонтирован. При достижении 0% прочности он становится поврежденным. Поврежденный велосипед нельзя использовать по прямому назначению, а также разобрать на запчасти. Поврежденный велосипед можно отремонтировать. Ремонт поврежденного велосипеда не отличается от ремонта целого и ремонтируется на 25% прочности. Целый велосипед может быть использован для сборки велосипеда с тележкой.</string>
     <string name="bicycle_metod_polucenia" translatable="false">Целый велосипед можно собрать самостоятельно, начиная с 10 уровня. Требуется 6 очков исследований. По сценарию целый велосипед можно найти в убежищах возле Мурманска и Беломорска.</string>
     <string name="bicycle_slomaniy_description" translatable="false">Велосипед — лёгкий транспорт, обладающий минимальной грузоподъёмностью, однако, дающий существенную прибавку к скорости по сравнению с передвижением пешком. Может быть целым, повреждённым и сломанным.</string>
     <string name="bicycle_metod_polucenia_slomaniy" translatable="false">Сломанный велосипед можно случайным образом найти в следующих зданиях: \n- Школа (спортзал). \n- Почтовое отделение.\n- Уцелевший дом. \n- Дорога в городах.</string>
-
     <!-- велосипед с тележкой-->
     <string name="bicycle_cart_description" translatable="false">Велосипед с тележкой — лёгкий транспорт, совмещающий в себе скорость велосипеда с грузоподъёмностью тележки.</string>
     <string name="bicycle_cart_metod_polucenia" translatable="false">Собрать велосипед с тележкой можно самостоятельно, начиная с 20 уровня или у мастера в поселении Олонец, при наличии компонентов для сборки.</string>
-
     <!--мототележка-->
     <string name="motorized_cart_description" translatable="false">Мототележка — первый наземный бензиновый транспорт, доступный игроку, является модификацией велосипеда с тележкой. Обладает наименьшим расходом топлива среди среднего транспорта, но низкой скоростью и малой грузоподъёмностью. Бывает целая и сломанная. В отличие от большинства транспорта, целую мототележку нельзя разобрать или разломать на металлолом, а после поломки нельзя починить. Без топлива персонаж фактически несёт мототележку на себе, как и весь остальной транспорт, который обладает малым весом. \n- С v.708 можно использовать в квесте \"Просьба матери\".</string>
     <string name="motorized_cart_metod_polucenia" translatable="false">Единственным способом получения мототележки является самостоятельная сборка, начиная с 30 уровня; схема открывается за 6 очков исследований.</string>
     <string name="motorized_cart_slomanaya" translatable="false">Сломанную мототележку нельзя починить, можно только разобрать на запчасти.</string>
     <string name="motorized_cart_slomanaya_metod_polucenia" translatable="false">Из рабочей мототележки.</string>
-
     <!--мотоцикл-->
     <string name="motocycle_opisanie" translatable="false">Мотоцикл — бензиновый транспорт. Обладает малым расходом топлива и малой грузоподъёмностью. Бывает целый, сломанный и разобранный.</string>
     <string name="motocycle_slomanyi_opisanie" translatable="false">Сломанный мотоцикл (как с остатками бензина в баке, так и без него) можно случайным образом найти в следующих зданиях:\n-Гараж. \n-Автомастерская. \n-АЗС. \n-Техникум (мастерские). \n-Отделение милиции (парковка и гаражи).\n-Воинская часть (гаражи). \n-Малая база бандитов. \n-Средняя база бандитов (гаражи).\n-Большая база бандитов (гаражи). \n-Дорога в городах.</string>
     <string name="motocycle_metod_polucenia" translatable="false">Самостоятельная сборка, начиная с 40 уровня; схема открывается за 6 очков исследований. \nПриобретение в игровом магазине за крышки (появляется при достижении определенного прогресса в игре).</string>
     <string name="sorvigolova_opisanie" translatable="false">Сорвиголова — уникальный транспорт, добавленный к Хэллоуискому событию в 2019 году. Мотоцикл, одержимый духом проклятого коня всадника без головы. Обладает уникальной способностью к полету.</string>
     <string name="sorvigolova_metod_polucenia" translatable="false">Получить череп сорвиголовы за победу над Всадником без головы и собрать мотоцикл из этого черепа. Так же можно купить в магазине в баре «Честный чёрт» за 9000 золотых монет и 1 Знак охотника. Покупается в режиме «Полёт». </string>
-
-
     <!--ЗАЗ-->
     <string name="clasic_mobile_description" translatable="false">ЗАЗ-968 — средний транспорт, который можно собрать с помощью мастера в Туле на 4 уровне мастерской. В народе его называют «Запорожец».</string>
     <string name="clasic_mobile_description_razobrani" translatable="false">Разобранный ЗАЗ-968 или просто «Запорожец». Остается только разобрать на металлолом. Все что могло пригодиться, ужя снято. Но и металл иногда очень нужен.</string>
-
-    <string name="clasic_mobile_" translatable="false"></string>
+    <string name="clasic_mobile_description_slomani" translatable="false">Сломанный ЗАЗ-968 подходит только для разборки на запчасти.</string>
+    <string name="clasic_mobile_description_slomani_metod_polucenia" translatable="false">Сломанный ЗАЗ-968 (как с остатками топлива в баке, так и без него) может быть случайным образом найден в следующих локациях: \n-Дорога в городах.\n-Гараж.\n-Автомастерская.\n-АЗС.\n-Техникум (мастерские).\n-База бандитов.\n-Отделение милиции (парковка и гаражи).</string>
 
     <string name="vaz2101_description" translatable="false">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
     <string name="gaz24_description" translatable="false">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>

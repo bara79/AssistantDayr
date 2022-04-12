@@ -39,7 +39,7 @@
     <string name="km_1000">1000км</string>
     <string name="pcs_1">1шт</string>
     <string name="no">НЕТ</string>
-    <string name="opit">Получаемый опыт</string>
+    <string name="opit_polucen">Получаемый опыт</string>
     <string name="bicycle_parts">Части велосипеда</string>
     <string name="glue_duc">Клей или изолента</string>
     <string name="pcs_3">3шт</string>
@@ -95,6 +95,11 @@
     <string name="remont_net">РЕМОНТ - НЕТ</string>
     <string name="lom">Лом</string>
     <string name="nozovka">Ножовка</string>
+    <string name="razobran">разобранный</string>
+    <string name="slomani">сломанный</string>
+    <string name="km_4000">4000км</string>
+    <string name="kmh_30">30км/ч</string>
+    <string name="rashod_7_100">7л/100км</string>
 
 
 </resources>
