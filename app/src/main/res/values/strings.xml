@@ -27,36 +27,54 @@
     <string name="broken_motorized_cart">Broken motorized cart</string>
     <string name="sorvigolova">Daredevil</string>
     <string name="sorvigolova_polet">Daredevil "FLIGHT"</string>
+    <string name="electromobil">electric car</string>
 
 
     <string name="trebuemiy_lvl">Required level</string>
     <string name="quests">QUESTS</string>
-    <string name="specifications">SPECIFICATIONS</string>
-    <string name="repair">REPAIR</string>
+    <string name="harakteristiki">SPECIFICATIONS</string>
+    <string name="remont">REPAIR</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
     <string name="razobran">disassembled</string>
     <string name="slomani">broken</string>
     <string name="instrument">Tool kit</string>
-    <string name="screw">Screw</string>
-    <string name="engine_oil">Engine oil</string>
-    <string name="assemble">ASSEMBLE</string>
+    <string name="celii">whole</string>
+    <string name="sborka">ASSEMBLE</string>
     <string name="production_method">PRODUCTION METHOD</string>
     <string name="load_capacity">Load capacity</string>
-    <string name="weight">Weight</string>
+    <string name="ves">Weight</string>
     <string name="max_mileage">Max. mileage</string>
     <string name="max_speed">Max. speed</string>
     <string name="opit_polucen">Experience</string>
     <string name="bicycle_parts">Bicycle parts</string>
-    <string name="glue_duc">Glue or duct tape</string>
     <string name="final_result">Final result</string>
     <string name="razborka">DISASSEMBLY</string>
-    <string name="wire">Wire</string>
     <string name="toplivo">Fuel</string>
     <string name="benzin">Gasoline</string>
     <string name="dizel">Diesel</string>
     <string name="rashod_topliva">Fuel consumption</string>
     <string name="remont_net">REPAIR - NO</string>
+    <string name="cernie_rubli">Black rubles</string>
+
+    <!-- компоненты -->
+    <string name="avtozapcasti">Auto spare parts</string>
+    <string name="maslo">Engine oil</string>
+    <string name="provolka">Wire</string>
+    <string name="wint">Screw</string>
+    <string name="klei_izolenta">Glue or duct tape</string>
+    <string name="sveca_zazigania">Spark plug</string>
+    <string name="akb_sloman">Broken car battery</string>
+    <string name="sini">Tires</string>
+    <string name="rezinovie_detali">Rubber Parts</string>
+    <string name="izolenta">Rope</string>
+    <string name="akb">Battery</string>
+
+
+
+    <!-- проценты -->
+    <string name="procent_25">+25%</string>
+
 
     <!-- инструменты -->
     <string name="lom">Crowbar</string>
@@ -86,6 +104,7 @@
     <string name="kg_120">120kg</string>
     <string name="kg_300">300kg</string>
     <string name="kg_350">350kg</string>
+    <string name="kg_500">500kg</string>
     <string name="kg_666">666kg</string>
     <string name="kg_850">850kg</string>
 
@@ -100,10 +119,17 @@
 
     <!-- штук -->
     <string name="pcs_1">1pcs</string>
+    <string name="pcs_0_1">0-1pcs</string>
+    <string name="pcs_1_2">1-2pcs</string>
     <string name="pcs_2">2pcs</string>
     <string name="pcs_3">3pcs</string>
     <string name="pcs_4">4pcs</string>
     <string name="pcs_5">5pcs</string>
+    <string name="pcs_6">6pcs</string>
+    <string name="pcs_7">7pcs</string>
+    <string name="pcs_8">8pcs</string>
+    <string name="pcs_10">10pcs</string>
+    <string name="pcs_12">12pcs</string>
     <string name="pcs_20">20pcs</string>
     <string name="pcs_100">100pcs</string>
     <string name="pcs_120">120pcs</string>
@@ -126,6 +152,7 @@
     <string name="gr_40">40gr</string>
     <string name="gr_50">50gr</string>
     <string name="gr_100">100gr</string>
+    <string name="gr_500">500gr</string>
     <string name="gr_1000" translatable="false">1k</string>
     <string name="gr_7000" translatable="false">7k</string>
 
@@ -154,10 +181,19 @@
     <string name="sorvigolova_opisanie" translatable="false">Сорвиголова — уникальный транспорт, добавленный к Хэллоуискому событию в 2019 году. Мотоцикл, одержимый духом проклятого коня всадника без головы. Обладает уникальной способностью к полету.</string>
     <string name="sorvigolova_metod_polucenia" translatable="false">Получить череп сорвиголовы за победу над Всадником без головы и собрать мотоцикл из этого черепа. Так же можно купить в магазине в баре «Честный чёрт» за 9000 золотых монет и 1 Знак охотника. Покупается в режиме «Полёт». </string>
     <!--ЗАЗ-->
-    <string name="clasic_mobile_description" translatable="false">ЗАЗ-968 — средний транспорт, который можно собрать с помощью мастера в Туле на 4 уровне мастерской. В народе его называют «Запорожец».</string>
+    <string name="clasic_mobile_description" translatable="false">ЗАЗ-968 — средний транспорт, который можно собрать с помощью мастера в Туле на 4 уровне мастерской. В народе его называют «Запорожец». Как и любая техника, имеет свойство ломаться. По этому его нужно ремонтировать. Ремонт можно производить самому или у мастеров, в поселениях</string>
     <string name="clasic_mobile_description_razobrani" translatable="false">Разобранный ЗАЗ-968 или просто «Запорожец». Остается только разобрать на металлолом. Все что могло пригодиться, ужя снято. Но и металл иногда очень нужен.</string>
     <string name="clasic_mobile_description_slomani" translatable="false">Сломанный ЗАЗ-968 подходит только для разборки на запчасти.</string>
     <string name="clasic_mobile_description_slomani_metod_polucenia" translatable="false">Сломанный ЗАЗ-968 (как с остатками топлива в баке, так и без него) может быть случайным образом найден в следующих локациях: \n-Дорога в городах.\n-Гараж.\n-Автомастерская.\n-АЗС.\n-Техникум (мастерские).\n-База бандитов.\n-Отделение милиции (парковка и гаражи).</string>
+    <string name="clasic_mobile_description_celii_metod_polucenia" translatable="false">Получить ЗАЗ-968 «Запорожец» можно в Туле, на 4 уровне мастерской или приобрести в игровом магазине за 1200 крышек</string>
+    <string name="electro_mobile_description" translatable="false"></string>
+
+
+
+
+
+
+
 
     <string name="vaz2101_description" translatable="false">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
     <string name="gaz24_description" translatable="false">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>

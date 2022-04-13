@@ -88,7 +88,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/specifications"
+                android:text="@string/harakteristiki"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -116,7 +116,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/weight"
+                        android:text="@string/ves"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -298,7 +298,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/repair"
+                android:text="@string/remont"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -354,7 +354,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/engine_oil"
+                        android:text="@string/maslo"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -383,7 +383,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="Изолента"
+                        android:text="@string/izolenta"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -412,7 +412,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/screw"
+                        android:text="@string/wint"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -424,7 +424,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="4шт"
+                        android:text="@string/pcs_4"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -482,7 +482,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="+25%"
+                        android:text="@string/procent_25"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -545,7 +545,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/assemble"
+                android:text="@string/sborka"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -627,7 +627,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Резиновые детали "
+                    android:text="@string/rezinovie_detali"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -656,7 +656,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/engine_oil"
+                    android:text="@string/maslo"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -687,7 +687,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Изолента"
+                    android:text="@string/izolenta"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -716,7 +716,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/wire"
+                    android:text="@string/provolka"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -745,7 +745,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/screw"
+                    android:text="@string/wint"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -774,7 +774,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Шины"
+                    android:text="@string/sini"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -803,7 +803,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="Свеча зажигания"
+                    android:text="@string/sveca_zazigania"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

@@ -20,17 +20,17 @@
     <string name="raft">Плот</string>
     <string name="motorboat">Моторная лодка</string>
     <string name="belaz">БелАЗ</string>
-    <string name="specifications">ХАРАКТЕРИСТИКИ</string>
-    <string name="repair">РЕМОНТ</string>
+    <string name="harakteristiki">ХАРАКТЕРИСТИКИ</string>
+    <string name="remont">РЕМОНТ</string>
     <string name="yes">ДА</string>
     <string name="instrument">Набор инструментов</string>
-    <string name="screw">Винт</string>
-    <string name="engine_oil">Машинное масло</string>
-    <string name="assemble">СБОРКА</string>
+    <string name="wint">Винт</string>
+    <string name="maslo">Машинное масло</string>
+    <string name="sborka">СБОРКА</string>
     <string name="production_method">СПОСОБ ПОЛУЧЕНИЯ</string>
     <string name="bicycle_cart">Велосипед с тележкой</string>
     <string name="load_capacity">Грузоподъемность</string>
-    <string name="weight">Вес</string>
+    <string name="ves">Вес</string>
     <string name="max_mileage">Макс.пробег</string>
     <string name="max_speed">Макс.скорость</string>
     <string name="kmh_9">9км/ч</string>
@@ -41,14 +41,14 @@
     <string name="no">НЕТ</string>
     <string name="opit_polucen">Получаемый опыт</string>
     <string name="bicycle_parts">Части велосипеда</string>
-    <string name="glue_duc">Клей или изолента</string>
+    <string name="klei_izolenta">Клей или изолента</string>
     <string name="pcs_3">3шт</string>
     <string name="lvl_20">20ур</string>
     <string name="lvl_10">10ур</string>
     <string name="final_result">Итоговый результат</string>
     <string name="pcs_2">2шт</string>
     <string name="gr_40">40гр</string>
-    <string name="wire">Проволока</string>
+    <string name="provolka">Проволока</string>
     <string name="motorized_cart">Мототележка</string>
 
 
@@ -100,6 +100,26 @@
     <string name="km_4000">4000км</string>
     <string name="kmh_30">30км/ч</string>
     <string name="rashod_7_100">7л/100км</string>
+    <string name="avtozapcasti">Автозапчасти</string>
+    <string name="pcs_1_2">1-2шт</string>
+    <string name="sveca_zazigania">Свеча зажигаия</string>
+    <string name="pcs_0_1">0-1шт</string>
+    <string name="akb_sloman">Сломанный АКБ</string>
+    <string name="sini">Шины</string>
+    <string name="celii">целый</string>
+    <string name="kg_500">500кг</string>
+    <string name="pcs_7">7шт</string>
+    <string name="pcs_6">6шт</string>
+    <string name="rezinovie_detali">Резиновые детали</string>
+    <string name="procent_25">+25%</string>
+    <string name="izolenta">Изолента</string>
+    <string name="pcs_10">10шт</string>
+    <string name="pcs_12">12шт</string>
+    <string name="gr_500">500гр</string>
+    <string name="pcs_8">8шт</string>
+    <string name="akb">АКБ</string>
+    <string name="cernie_rubli">Черные рубли</string>
+    <string name="electromobil">электромобиль</string>
 
 
 </resources>

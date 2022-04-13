@@ -88,7 +88,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/specifications"
+                android:text="@string/harakteristiki"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -117,7 +117,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/weight"
+                        android:text="@string/ves"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -299,7 +299,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/repair"
+                android:text="@string/remont"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -392,7 +392,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/freemonospaced"
                 android:gravity="center"
-                android:text="@string/assemble"
+                android:text="@string/sborka"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
