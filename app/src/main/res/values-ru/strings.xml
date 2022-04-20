@@ -120,6 +120,9 @@
     <string name="akb">АКБ</string>
     <string name="cernie_rubli">Черные рубли</string>
     <string name="electromobil">электромобиль</string>
+    <string name="kmh_50">50км/ч</string>
+    <string name="kg_600">600кг</string>
+    <string name="kg_750">750кг</string>
 
 
 </resources>

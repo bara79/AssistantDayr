@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/freemonospaced"
                 android:justificationMode="inter_word"
-                android:text="@string/clasic_mobile_description"
+                android:text="@string/electro_mobile_description"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -154,7 +154,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kg_850"
+                        android:text="@string/kg_750"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -182,7 +182,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kg_500"
+                        android:text="@string/kg_600"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -211,7 +211,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/benzin"
+                        android:text="@string/no"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -272,41 +272,13 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/kmh_40"
+                        android:text="@string/kmh_50"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
                 </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <TextView
-                        android:id="@+id/textView58"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:fontFamily="@font/freemonospaced"
-                        android:text="@string/rashod_topliva"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView59"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="50dp"
-                        android:layout_weight="0"
-                        android:fontFamily="@font/freemonospaced"
-                        android:text="@string/rashod_7_100"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                </TableRow>
             </TableLayout>
 
             <View
@@ -363,7 +335,7 @@
                         android:layout_marginEnd="50dp"
                         android:layout_weight="0"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/pcs_5"
+                        android:text="@string/pcs_4"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -582,6 +554,60 @@
 
                     <TextView
                         android:id="@+id/textView66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/procent_25"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/final_result"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/procent_25"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/freemonospaced"
+                        android:text="@string/final_result"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView92"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="50dp"

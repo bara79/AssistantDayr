@@ -94,9 +94,10 @@
     <string name="kmh_20">20km/h</string>
     <string name="kmh_30">30km/h</string>
     <string name="kmh_40">40km/h</string>
+    <string name="kmh_50">50km/h</string>
     <string name="kmh_100">100km/h</string>
 
-    <!-- вес предмета -->
+    <!-- вес предмета, грузоподьемность-->
     <string name="kg_0">0kg</string>
     <string name="kg_35">35kg</string>
     <string name="kg_50">50kg</string>
@@ -105,7 +106,9 @@
     <string name="kg_300">300kg</string>
     <string name="kg_350">350kg</string>
     <string name="kg_500">500kg</string>
+    <string name="kg_600">600kg</string>
     <string name="kg_666">666kg</string>
+    <string name="kg_750">750kg</string>
     <string name="kg_850">850kg</string>
 
 
@@ -186,7 +189,7 @@
     <string name="clasic_mobile_description_slomani" translatable="false">Сломанный ЗАЗ-968 подходит только для разборки на запчасти.</string>
     <string name="clasic_mobile_description_slomani_metod_polucenia" translatable="false">Сломанный ЗАЗ-968 (как с остатками топлива в баке, так и без него) может быть случайным образом найден в следующих локациях: \n-Дорога в городах.\n-Гараж.\n-Автомастерская.\n-АЗС.\n-Техникум (мастерские).\n-База бандитов.\n-Отделение милиции (парковка и гаражи).</string>
     <string name="clasic_mobile_description_celii_metod_polucenia" translatable="false">Получить ЗАЗ-968 «Запорожец» можно в Туле, на 4 уровне мастерской или приобрести в игровом магазине за 1200 крышек</string>
-    <string name="electro_mobile_description" translatable="false"></string>
+    <string name="electro_mobile_description" translatable="false">Электромобиль — уникальный транспорт, построенный на базе ЗАЗ-968, который не требует топлива. Можно собрать у мастера в Иркутске, имея 3 уровень мастерской. \n-Примечания: \n-Квестовый электродвигатель, который нас просит найти Виктор, для сборки электромобиля не подходит, пока квест «Мини-ГЭС» не завершен. \n-В случае полного износа батарея и электродвигатель не пропадают, однако Вам придётся собрать электромобиль заново.</string>
 
 
 
