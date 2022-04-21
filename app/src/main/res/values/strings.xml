@@ -38,7 +38,7 @@
     <string name="no">NO</string>
     <string name="razobran">disassembled</string>
     <string name="slomani">broken</string>
-    <string name="instrument">Tool kit</string>
+    <string name="instrumenti_nabor">Tool kit</string>
     <string name="celii">whole</string>
     <string name="sborka">ASSEMBLE</string>
     <string name="production_method">PRODUCTION METHOD</string>
@@ -56,6 +56,7 @@
     <string name="rashod_topliva">Fuel consumption</string>
     <string name="remont_net">REPAIR - NO</string>
     <string name="cernie_rubli">Black rubles</string>
+    <string name="produkt_kartocki">Food cards</string>
 
     <!-- компоненты -->
     <string name="avtozapcasti">Auto spare parts</string>
@@ -69,6 +70,9 @@
     <string name="rezinovie_detali">Rubber Parts</string>
     <string name="izolenta">Rope</string>
     <string name="akb">Battery</string>
+    <string name="atom_battary">Atomic battery</string>
+    <string name="sernaya_kislota">Sulfuric acid</string>
+    <string name="provod">Cable</string>
 
 
 
@@ -78,7 +82,14 @@
 
     <!-- инструменты -->
     <string name="lom">Crowbar</string>
+    <string name="rzaviy_lom">Rusted crowbar</string>
     <string name="nozovka">Hacksaw</string>
+    <string name="generator">Generator</string>
+    <string name="svarka">Welder</string>
+    <string name="lopata">Shovel</string>
+    <string name="rzavaya_lopata">Rusted shovel</string>
+    <string name="rzavie_instrumenti">Rusted tools</string>
+    <string name="instrumenti">Tool kit</string>
 
 
 
@@ -133,9 +144,14 @@
     <string name="pcs_8">8pcs</string>
     <string name="pcs_10">10pcs</string>
     <string name="pcs_12">12pcs</string>
+    <string name="pcs_15">15pcs</string>
     <string name="pcs_20">20pcs</string>
+    <string name="pcs_30">30pcs</string>
+    <string name="pcs_40">40pcs</string>
+    <string name="pcs_50">50pcs</string>
     <string name="pcs_100">100pcs</string>
     <string name="pcs_120">120pcs</string>
+    <string name="pcs_540">540pcs</string>
 
 
     <!-- уровень персонажа -->
@@ -155,6 +171,7 @@
     <string name="gr_40">40gr</string>
     <string name="gr_50">50gr</string>
     <string name="gr_100">100gr</string>
+    <string name="gr_400">400gr</string>
     <string name="gr_500">500gr</string>
     <string name="gr_1000" translatable="false">1k</string>
     <string name="gr_7000" translatable="false">7k</string>
@@ -190,6 +207,7 @@
     <string name="clasic_mobile_description_slomani_metod_polucenia" translatable="false">Сломанный ЗАЗ-968 (как с остатками топлива в баке, так и без него) может быть случайным образом найден в следующих локациях: \n-Дорога в городах.\n-Гараж.\n-Автомастерская.\n-АЗС.\n-Техникум (мастерские).\n-База бандитов.\n-Отделение милиции (парковка и гаражи).</string>
     <string name="clasic_mobile_description_celii_metod_polucenia" translatable="false">Получить ЗАЗ-968 «Запорожец» можно в Туле, на 4 уровне мастерской или приобрести в игровом магазине за 1200 крышек</string>
     <string name="electro_mobile_description" translatable="false">Электромобиль — уникальный транспорт, построенный на базе ЗАЗ-968, который не требует топлива. Можно собрать у мастера в Иркутске, имея 3 уровень мастерской. \n-Примечания: \n-Квестовый электродвигатель, который нас просит найти Виктор, для сборки электромобиля не подходит, пока квест «Мини-ГЭС» не завершен. \n-В случае полного износа батарея и электродвигатель не пропадают, однако Вам придётся собрать электромобиль заново.</string>
+    <string name="electro_mobile_description_metod_polucenia" translatable="false">Электромобиль — можно собрать только у мастера в Иркутске, имея 3 уровень мастерской.</string>
 
 
 

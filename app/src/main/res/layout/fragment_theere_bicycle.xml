@@ -382,7 +382,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/freemonospaced"
-                        android:text="@string/instrument"
+                        android:text="@string/instrumenti_nabor"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -658,7 +658,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/freemonospaced"
-                    android:text="@string/instrument"
+                    android:text="@string/instrumenti_nabor"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />

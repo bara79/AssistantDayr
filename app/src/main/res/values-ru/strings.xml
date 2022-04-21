@@ -23,7 +23,6 @@
     <string name="harakteristiki">ХАРАКТЕРИСТИКИ</string>
     <string name="remont">РЕМОНТ</string>
     <string name="yes">ДА</string>
-    <string name="instrument">Набор инструментов</string>
     <string name="wint">Винт</string>
     <string name="maslo">Машинное масло</string>
     <string name="sborka">СБОРКА</string>
@@ -123,6 +122,24 @@
     <string name="kmh_50">50км/ч</string>
     <string name="kg_600">600кг</string>
     <string name="kg_750">750кг</string>
+    <string name="sernaya_kislota">Серная кислота</string>
+    <string name="provod">Провод</string>
+    <string name="pcs_15">15шт</string>
+    <string name="pcs_40">40шт</string>
+    <string name="generator">Генератор</string>
+    <string name="svarka">Сварка</string>
+    <string name="instrumenti_nabor">Набор инструментов</string>
+    <string name="rzaviy_lom">Ржавый лом</string>
+    <string name="lopata">Лопата</string>
+    <string name="rzavaya_lopata">Ржавая лопата</string>
+    <string name="rzavie_instrumenti">Ржавый инструмент</string>
+    <string name="instrumenti">Инструмент</string>
+    <string name="pcs_30">30шт</string>
+    <string name="gr_400">400гр</string>
+    <string name="pcs_50">50шт</string>
+    <string name="atom_battary">Атомная баттарея</string>
+    <string name="produkt_kartocki">Продуктовые карточки</string>
+    <string name="pcs_540">540шт</string>
 
 
 </resources>
