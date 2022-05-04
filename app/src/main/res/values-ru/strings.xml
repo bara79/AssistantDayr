@@ -140,6 +140,22 @@
     <string name="atom_battary">Атомная баттарея</string>
     <string name="produkt_kartocki">Продуктовые карточки</string>
     <string name="pcs_540">540шт</string>
+    <string name="medicamenti_menu">МЕДИКМЕНТЫ</string>
+    <string name="eda_menu">ЕДА</string>
+    <string name="personasi_menu">ПЕРСОНАЖИ</string>
+    <string name="komponenti_menu">КОМПОНЕНТЫ</string>
+    <string name="vragi_menu">ВРАГИ</string>
+    <string name="obmundirovanie_menu">ОБМУНДИРОВАНИЕ</string>
+    <string name="oruzie_menu">ОРУЖИЕ</string>
+    <string name="transport_menu">ТРАНСПОРТ</string>
+    <string name="vizivanie_menu">ВЫЖИВАНИЕ</string>
+    <string name="nastroiki_menu">НАСТРОЙКИ</string>
+    <string name="pogoda">Погода</string>
+    <string name="sposobnosti">Способности</string>
+    <string name="bolezni_travmi">"Болезни и травмы "</string>
+    <string name="uroven_geroi">Уровень персонажа</string>
+    <string name="karta">Карта</string>
+    <string name="pokazateli_zizni">Жизненные показатели</string>
 
 
 </resources>

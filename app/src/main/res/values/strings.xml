@@ -30,8 +30,29 @@
     <string name="electromobil">electric car</string>
 
 
-    <string name="trebuemiy_lvl">Required level</string>
+
+    <!-- названия в меню -->
     <string name="quests">QUESTS</string>
+    <string name="medicamenti_menu">MEDICINE</string>
+    <string name="eda_menu">FOOD</string>
+    <string name="personasi_menu">CHARECTERS</string>
+    <string name="komponenti_menu">COMPONENTS</string>
+    <string name="vragi_menu">ENEMY</string>
+    <string name="obmundirovanie_menu">UNIFORMS</string>
+    <string name="oruzie_menu">WEAPON</string>
+    <string name="transport_menu">TRANSPORT</string>
+    <string name="vizivanie_menu">SURVIVAL</string>
+    <string name="nastroiki_menu">SETTINGS</string>
+    <string name="pogoda">Weather</string>
+    <string name="sposobnosti">Perks</string>
+    <string name="bolezni_travmi">Diseases and injuries</string>
+    <string name="uroven_geroi">Character Level</string>
+    <string name="karta">Global map</string>
+    <string name="pokazateli_zizni">Vital signs</string>
+
+
+
+    <string name="trebuemiy_lvl">Required level</string>
     <string name="harakteristiki">SPECIFICATIONS</string>
     <string name="remont">REPAIR</string>
     <string name="yes">YES</string>

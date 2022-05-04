@@ -23,23 +23,25 @@ class SurvivalListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_survival_list)
 
         imageIdSurvival = arrayOf(
-            R.drawable.telega,
-            R.drawable.bicycle,
-            R.drawable.moto,
-            R.drawable.classic_mobile,
-            R.drawable.vaz2101,
+            R.drawable.steel_tools,
+            R.drawable.diagram,
+            R.drawable.sposobnosti,
+            R.drawable.bolexni_travmi,
+            R.drawable.uroven,
+            R.drawable.gaz24,
             R.drawable.gaz24
 
         )
 
 
         headingSurvival= arrayOf(
-            getString(R.string.kraz255),
-            getString(R.string.mi8),
-            getString(R.string.polar_atv),
-            getString(R.string.raft),
-            getString(R.string.motorboat),
-            getString(R.string.belaz)
+            getString(R.string.instrumenti),
+            getString(R.string.pogoda),
+            getString(R.string.sposobnosti),
+            getString(R.string.bolezni_travmi),
+            getString(R.string.uroven_geroi),
+            getString(R.string.karta),
+            getString(R.string.pokazateli_zizni)
         )
 
 
