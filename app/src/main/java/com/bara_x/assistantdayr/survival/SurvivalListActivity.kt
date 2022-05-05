@@ -28,8 +28,8 @@ class SurvivalListActivity : AppCompatActivity() {
             R.drawable.sposobnosti,
             R.drawable.bolexni_travmi,
             R.drawable.uroven,
-            R.drawable.gaz24,
-            R.drawable.gaz24
+            R.drawable.map,
+            R.drawable.pokazatel
 
         )
 

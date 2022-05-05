@@ -11,6 +11,7 @@ import com.bara_x.assistantdayr.survival.SurvivalListActivity
 import com.bara_x.assistantdayr.transport.TransportListActivity
 import com.bara_x.assistantdayr.listActivity.*
 import com.bara_x.assistantdayr.medicine.MedicineListActivity
+import com.bara_x.assistantdayr.quests.QuestListActivity
 import com.bara_x.assistantdayr.settings.SettingsActivity
 
 
