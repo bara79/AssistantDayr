@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_bicycle_description.xml" value="0.16354166666666667" />
+        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_bicycle_description.xml" value="0.1" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_cart_description.xml" value="0.2" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_character_list.xml" value="0.3546875" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_classic_mobile.xml" value="0.23006756756756758" />
@@ -20,9 +20,11 @@
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_splash.xml" value="0.33" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_survival_list.xml" value="0.22" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_transport_list.xml" value="0.25" />
+        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_vpoiskah_istini.xml" value="0.23006756756756758" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/activity_weapon_list.xml" value="0.340625" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_first.xml" value="0.23777173913043478" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_first_bicycle.xml" value="0.25" />
+        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_istina_one.xml" value="0.22" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_motocycle_five.xml" value="0.22094594594594594" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_motocycle_four.xml" value="0.25" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_motocycle_one.xml" value="0.22" />
@@ -38,12 +40,13 @@
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_too_bicycle.xml" value="0.18" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_two.xml" value="0.23777173913043478" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_two_bicycle.xml" value="0.25" />
-        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_four.xml" value="0.21" />
+        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_four.xml" value="0.1" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_one.xml" value="0.25" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_three.xml" value="0.25" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_too.xml" value="0.1" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/fragment_zaz_two.xml" value="0.22" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/quest_item.xml" value="0.23006756756756758" />
+        <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/quest_v_poiskah_istini.xml" value="0.23006756756756758" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/survival_item.xml" value="0.33" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/transport_item.xml" value="0.25" />
       </map>

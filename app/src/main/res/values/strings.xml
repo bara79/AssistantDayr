@@ -30,7 +30,6 @@
     <string name="electromobil">electric car</string>
 
 
-
     <!-- названия в меню -->
     <string name="quests">QUESTS</string>
     <string name="medicamenti_menu">MEDICINE</string>
@@ -50,6 +49,14 @@
     <string name="karta">Global map</string>
     <string name="pokazateli_zizni">Vital signs</string>
 
+    <!-- квесты -->
+    <string name="v_poiskah_istina_kvest">Searching for Truth</string>
+
+    <!-- квесты описание-->
+    <string name="v_poiskah_istina_kvest_opisanie" translatable="false">В поисках истины — главный
+        сюжетный квест в игре Day R. В ходе квеста игрок узнаёт об истории игрового мира и выясняет,
+        что погубило человечество. Квест состоит из 28 этапов в которые входит как текстовые квесты,
+    так и обычные.</string>
 
 
     <string name="trebuemiy_lvl">Required level</string>
@@ -96,7 +103,6 @@
     <string name="provod">Cable</string>
 
 
-
     <!-- проценты -->
     <string name="procent_25">+25%</string>
 
@@ -111,8 +117,6 @@
     <string name="rzavaya_lopata">Rusted shovel</string>
     <string name="rzavie_instrumenti">Rusted tools</string>
     <string name="instrumenti">Tool kit</string>
-
-
 
 
     <!-- литров на 100 км -->
@@ -142,7 +146,6 @@
     <string name="kg_666">666kg</string>
     <string name="kg_750">750kg</string>
     <string name="kg_850">850kg</string>
-
 
 
     <!-- расстояние -->
@@ -231,12 +234,6 @@
     <string name="electro_mobile_description_metod_polucenia" translatable="false">Электромобиль — можно собрать только у мастера в Иркутске, имея 3 уровень мастерской.</string>
 
 
-
-
-
-
-
-
     <string name="vaz2101_description" translatable="false">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
     <string name="gaz24_description" translatable="false">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>
     <string name="uaz_description" translatable="false">УАЗ-469 — средний транспорт, который можно собрать с помощью мастера в Ижевске и в Кургане на 3 уровне мастерской. В народе его называют «Уазик».</string>
@@ -251,7 +248,8 @@
     <string name="raft_description" translatable="false">Моторная лодка — водный транспорт в игре Day R.</string>
     <string name="motorboat_description" translatable="false">Самодельный плот — водный транспорт, который можно собрать самостоятельно. Позволяет передвигаться по воде и по болоту. Не подвержен износу. Также самодельный плот является компонентом для создания плота с мотором.</string>
     <string name="belaz_description" translatable="false">БелАЗ — уникальный транспорт, единственным способом получить который является прохождение квеста «Город на колесах». Обладает самой высокой грузоподъёмностью в игре и не требует топлива. В народе его называют «Белка».</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
 
 </resources>

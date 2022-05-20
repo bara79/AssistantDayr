@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
 import com.bara_x.assistantdayr.listActivity.WeaponListActivity
+import com.bara_x.assistantdayr.quests.activity.VPoiskahIstini
 import com.bara_x.assistantdayr.transport.activity.BicycleDescription
 import com.bara_x.assistantdayr.transport.activity.CartDescription
 import com.bara_x.assistantdayr.transport.activity.ClassicMobileDescription
@@ -29,7 +30,7 @@ class QuestListActivity : AppCompatActivity() {
 //массивы с данными для заполнения
         imageId = arrayOf(
 
-            R.drawable.telega,
+            R.drawable.begin_7_2,
             R.drawable.bicycle,
             R.drawable.moto,
             R.drawable.classic_mobile,
@@ -52,7 +53,7 @@ class QuestListActivity : AppCompatActivity() {
         )
         headingQuest = arrayOf(
 
-            getString(R.string.telega),
+            getString(R.string.v_poiskah_istina_kvest),
             getString(R.string.bicycle),
             getString(R.string.motocycle),
             getString(R.string.clasic_mobile),
@@ -105,7 +106,7 @@ class QuestListActivity : AppCompatActivity() {
 
                 if (position == 0) {
                     val intent =
-                        Intent(this@QuestListActivity, CartDescription::class.java)
+                        Intent(this@QuestListActivity, VPoiskahIstini::class.java)
                     startActivity(intent)
 
                 }

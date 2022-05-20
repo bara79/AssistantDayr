@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".quests.activity.VPoiskahIstini"
+            android:exported="false" />
+        <activity
             android:name=".transport.activity.ClassicMobileDescription"
             android:exported="false" />
         <activity
@@ -52,6 +55,9 @@
             android:name=".medicine.MedicineListActivity"
             android:exported="false" />
         <activity
+            android:name=".quests.QuestListActivity"
+            android:exported="false" />
+        <activity
             android:name=".splashActivity.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.Splash">
@@ -61,9 +67,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".listActivity.QuestListActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
