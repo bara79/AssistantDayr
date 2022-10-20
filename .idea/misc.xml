@@ -49,10 +49,17 @@
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/quest_v_poiskah_istini.xml" value="0.23006756756756758" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/survival_item.xml" value="0.33" />
         <entry key="..\:/Project/AssistantDayr/app/src/main/res/layout/transport_item.xml" value="0.25" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/activity_main.xml" value="0.2803442028985507" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/activity_transport_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/activity_vpoiskah_istini.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/activity_weapon_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/fragment_istina_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/quest_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Alexandr/StudioProjects/AssistantDayr/app/src/main/res/layout/transport_item.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
