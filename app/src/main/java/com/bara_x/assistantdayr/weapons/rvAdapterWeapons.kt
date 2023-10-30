@@ -11,10 +11,10 @@ import com.bara_x.assistantdayr.R
 // адаптер ресайклер вью
 
 
-class rvAdapterWeapons(val transportList: ArrayList<Transport>) :
-    RecyclerView.Adapter<rvAdapterWeapons.TransportHolder>() {
+class rvAdapterWeapons(val transportList: ArrayList<Weapon>) :
+    RecyclerView.Adapter<rvAdapterWeapons.WeaponHolder>() {
 
-    class TransportHolder(item: View, listener: onItemClickListener) :
+    class WeaponHolder(item: View, listener: onItemClickListener) :
         RecyclerView.ViewHolder(item) {
 
         /*  val textView6 : TextView = itemView.findViewById(R.id.textView6)
@@ -43,14 +43,14 @@ class rvAdapterWeapons(val transportList: ArrayList<Transport>) :
         mListener = listener
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TransportHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WeaponHolder {
         val itemView =
             LayoutInflater.from(parent.context).inflate(R.layout.transport_item, parent, false)
-        return TransportHolder(itemView, mListener)
+        return WeaponHolder(itemView, mListener)
 
     }
 
-    override fun onBindViewHolder(holder: TransportHolder, position: Int) {
+    override fun onBindViewHolder(holder: WeaponHolder, position: Int) {
 
         val currentItem = transportList[position]
         holder.ivTransport.setImageResource(currentItem.imageId)

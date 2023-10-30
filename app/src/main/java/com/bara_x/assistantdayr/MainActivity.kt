@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonBtnQuest = findViewById<Button>(R.id.btnQuest)
+
         val textViewQuest = findViewById<TextView>(R.id.tvQuest)
         val imageViewQuest = findViewById<ImageView>(R.id.ivQuest)
 
