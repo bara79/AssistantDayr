@@ -250,6 +250,12 @@
     <string name="belaz_description" translatable="false">БелАЗ — уникальный транспорт, единственным способом получить который является прохождение квеста «Город на колесах». Обладает самой высокой грузоподъёмностью в игре и не требует топлива. В народе его называют «Белка».</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="chopper_opisanie" translatable="false">Мотоцикл \"Бродяга\" — уникальный транспорт, который можно получить купив его в магазине игры.</string>
+    <string name="wanderer_motocycle">Wanderer motocycle</string>
+    <string name="neogranicen">not limited</string>
+    <string name="rashod_6_100">6l/100km</string>
+    <string name="motocycle_parts">Motocycle parts</string>
+    <string name="brodjaga_metod_polucenia">Only purchase in the play store - 500 caps</string>
 
 
 </resources>

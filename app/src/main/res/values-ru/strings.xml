@@ -157,6 +157,11 @@
     <string name="karta">Карта</string>
     <string name="pokazateli_zizni">Жизненные показатели</string>
     <string name="v_poiskah_istina_kvest">В ПОИСКАХ ИСТИНЫ</string>
+    <string name="wanderer_motocycle">Мотоцикл \"Бродяга\"</string>
+    <string name="neogranicen">не ограничен</string>
+    <string name="rashod_6_100">6л/100км</string>
+    <string name="motocycle_parts">Части мотоцикла</string>
+    <string name="brodjaga_metod_polucenia">Только покупка в игровом магазине - 500 крышек</string>
 
 
 </resources>

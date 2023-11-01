@@ -7,7 +7,7 @@ import com.bara_x.assistantdayr.transport.screen.motocycle.*
 
 class PagerAdapterMotocycle (fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity){
     override fun getItemCount(): Int {
-        return 5
+        return 6
     }
 
     override fun createFragment(position: Int): Fragment {
@@ -16,7 +16,9 @@ class PagerAdapterMotocycle (fragmentActivity: FragmentActivity) : FragmentState
             1->MotocycleTwoFragment()
             2->MotocycleThreeFragment()
             3->MotocycleFourFragment()
-            else->MotocycleFiveFragment()
+            4->MotocycleFiveFragment()
+            else->MotocycleSixFragment()
+
         }
     }
 }
