@@ -47,8 +47,6 @@ class TransportListActivity : AppCompatActivity() {
             R.drawable.raft,
             R.drawable.motorboat,
             R.drawable.belaz
-
-
         )
         headingTransport = arrayOf(
 

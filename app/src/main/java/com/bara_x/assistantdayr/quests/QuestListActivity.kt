@@ -14,7 +14,7 @@ import com.bara_x.assistantdayr.transport.activity.MotocycleDescription
 
 class QuestListActivity : AppCompatActivity() {
 
-// отрисовывается экран с транспортом
+// отрисовывается экран с квестами
 
     private lateinit var newRecyclerView: RecyclerView
     private lateinit var newArrayList: ArrayList<Quest>

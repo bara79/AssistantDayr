@@ -140,7 +140,7 @@
     <string name="atom_battary">Атомная баттарея</string>
     <string name="produkt_kartocki">Продуктовые карточки</string>
     <string name="pcs_540">540шт</string>
-    <string name="medicamenti_menu">МЕДИКМЕНТЫ</string>
+    <string name="medicamenti_menu">МЕДИКАМЕНТЫ</string>
     <string name="eda_menu">ЕДА</string>
     <string name="personasi_menu">ПЕРСОНАЖИ</string>
     <string name="komponenti_menu">КОМПОНЕНТЫ</string>
@@ -162,6 +162,8 @@
     <string name="rashod_6_100">6л/100км</string>
     <string name="motocycle_parts">Части мотоцикла</string>
     <string name="brodjaga_metod_polucenia">Только покупка в игровом магазине - 500 крышек</string>
+    <string name="bint">Бинт</string>
+    <string name="podoriznik">Подорожник</string>
 
 
 </resources>
