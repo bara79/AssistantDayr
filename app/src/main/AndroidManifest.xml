@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".medicine.activity.BintDescription"
+            android:exported="false" />
+        <activity
             android:name=".quests.activity.VPoiskahIstini"
             android:exported="false" />
         <activity

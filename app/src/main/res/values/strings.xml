@@ -258,6 +258,13 @@
     <string name="brodjaga_metod_polucenia">Only purchase in the play store - 500 caps</string>
     <string name="bint">Sterile bandage</string>
     <string name="podoriznik">Broadleaf plantain</string>
+    <string name="bint_description">A sterile bandage is a medication necessary to eliminate the effects of wounds. It is used to restore health.
+Treatment of a raven, wolf, and arctic fox. Treatment of injured people in some settlement quests.</string>
+    <string name="kg_14">14kg</string>
+    <string name="zdorovie">Health</string>
+    <string name="ocki_10" translatable="false">+10</string>
+    <string name="bint_metod_polucenia">Find: at the pharmacy; in the clinic; in the school gym; in the wards and pharmacy of the hospital; in the infirmary of the military unit; in the tent camp; at the checkpoint; in an infected clinic; in an infected square; in an infected pharmacy. Find a large base of bandits in the infirmary after clearing the sector from enemies. Searching the skeletons of doctors. Searching the corpses of madmen, looters, bandits. He can bring a raven if you send him for medicines. A arctic fox can bring it if you send it to steal something. Create it yourself:</string>
+    <string name="trapka">Rags</string>
 
 
 </resources>
