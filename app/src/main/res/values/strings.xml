@@ -105,6 +105,7 @@
 
     <!-- проценты -->
     <string name="procent_25">+25%</string>
+    <string name="procent_100" translatable="false">+100%</string>
 
 
     <!-- инструменты -->
@@ -122,12 +123,15 @@
     <!-- литров на 100 км -->
     <string name="rashod_0_100">0l/100km</string>
     <string name="rashod_7_100">7l/100km</string>
+    <string name="rashod_9_100">9l/100km</string>
+    <string name="rashod_11_100">11l/100km</string>
 
 
     <!-- километры в час -->
     <string name="kmh_0">0km/h</string>
     <string name="kmh_9">9km/h</string>
     <string name="kmh_20">20km/h</string>
+    <string name="kmh_25">25km/h</string>
     <string name="kmh_30">30km/h</string>
     <string name="kmh_40">40km/h</string>
     <string name="kmh_50">50km/h</string>
@@ -146,6 +150,8 @@
     <string name="kg_666">666kg</string>
     <string name="kg_750">750kg</string>
     <string name="kg_850">850kg</string>
+    <string name="kg_855" translatable="false">855kg</string>
+    <string name="kg_955">955kg</string>
 
 
     <!-- расстояние -->
@@ -200,6 +206,11 @@
     <string name="gr_1000" translatable="false">1k</string>
     <string name="gr_7000" translatable="false">7k</string>
 
+    <!-- прочность -->
+
+    <string name="procnost">Endurance</string>
+    <string name="procnost_8000" translatable="false">8000</string>
+
 
     <!-- описание транспорта для карточки транспорта -->
     <!-- телега-->
@@ -233,8 +244,15 @@
     <string name="electro_mobile_description" translatable="false">Электромобиль — уникальный транспорт, построенный на базе ЗАЗ-968, который не требует топлива. Можно собрать у мастера в Иркутске, имея 3 уровень мастерской. \n-Примечания: \n-Квестовый электродвигатель, который нас просит найти Виктор, для сборки электромобиля не подходит, пока квест «Мини-ГЭС» не завершен. \n-В случае полного износа батарея и электродвигатель не пропадают, однако Вам придётся собрать электромобиль заново.</string>
     <string name="electro_mobile_description_metod_polucenia" translatable="false">Электромобиль — можно собрать только у мастера в Иркутске, имея 3 уровень мастерской.</string>
 
+    <!--ВАЗ-->
+    <string name="vaz2101_description" translatable="false">Разобранный ВАЗ-2101 — из которго можно собрать автомобиль, при наличии чертежа,чертеж приобритается у торговца, в Киеве, и верстака 10 уровня в лагере выжевшего. </string>
+    <string name="vaz2101_description_razobranii" translatable="false">Получается при разборке сломанного. После разломки получаем металлолом от 600 до 1200 </string>
+    <string name="vaz2101_description_slomani" translatable="false">Сломанный ВАЗ-2101 подходит для разбора на компоненты, распил на металлолом, слить бензин.  </string>
+    <string name="vaz2101_description_slomani_metod_polucenia" translatable="false">Сломанный ВАЗ-2101 (как с остатками топлива в баке, так и без него) может быть случайным образом найден в следующих локациях: \n-Дорога в городах.\n-Гараж.\n-Автомастерская.\n-АЗС.\n-Техникум (мастерские).\n-База бандитов.\n-Отделение милиции (парковка и гаражи).</string>
+    <string name="vaz2101_razobran"> VAZ-2101 \"Disassembled\"</string>
+    <string name="vaz2101_description_povrezden" translatable="false">Переходит в состояне повреджённого, когда запас прочности достигает 0%. </string>
 
-    <string name="vaz2101_description" translatable="false">ВАЗ-2101 — средний транспорт, который можно Собрать с помощью мастера в Брянске на 4 уровне мастерской и в Арзамасе на 3 уровне мастерской. В народе его называют «Копейкой».</string>
+
     <string name="gaz24_description" translatable="false">ГАЗ-24 — средний транспорт, который можно собрать с помощью мастера в Киеве на 4 уровне мастерской, в Рязани и в Челябинске на 3 уровне мастерской. В народе его называют «Волгой». Также в игре присутствует уникальная Чёрная волга, которая по сути является транспортом той же модели, но имеет ряд отличий от данного автомобиля.</string>
     <string name="uaz_description" translatable="false">УАЗ-469 — средний транспорт, который можно собрать с помощью мастера в Ижевске и в Кургане на 3 уровне мастерской. В народе его называют «Уазик».</string>
     <string name="uaz452_description" translatable="false">УАЗ-452 — средний транспорт, который можно собрать с помощью мастера в Ростове-на-Дону на 3 уровне мастерской и в Новосибирске на 2 уровне мастерской. Обладает самой высокой грузоподъёмностью и самым большим расходом топлива среди бензинового транспорта. В народе его называют «Буханкой» или «Таблеткой».</string>
@@ -265,6 +283,20 @@ Treatment of a raven, wolf, and arctic fox. Treatment of injured people in some 
     <string name="ocki_10" translatable="false">+10</string>
     <string name="bint_metod_polucenia">Find: at the pharmacy; in the clinic; in the school gym; in the wards and pharmacy of the hospital; in the infirmary of the military unit; in the tent camp; at the checkpoint; in an infected clinic; in an infected square; in an infected pharmacy. Find a large base of bandits in the infirmary after clearing the sector from enemies. Searching the skeletons of doctors. Searching the corpses of madmen, looters, bandits. He can bring a raven if you send him for medicines. A arctic fox can bring it if you send it to steal something. Create it yourself:</string>
     <string name="trapka">Rags</string>
+    <string name="sloman_benz_dvig" translatable="false">Сломанный бензиновый двигатель</string>
+    <string name="povrezden" translatable="false">повреждён</string>
+    <string name="sozdanie">CREATION</string>
+    <string name="voda_cistaja">Clean water</string>
+    <string name="ogon">Fire</string>
+    <string name="vremja_sozdanija">Time of creation</string>
+    <string name="min_3">3min</string>
+    <string name="xp_1" translatable="false">1xp</string>
+    <string name="podoroznik_description">Plantain is a medicinal plant that can be found in unlimited quantities in open wasteland areas (plains). It is a good remedy for restoring health, as it has no side effects. It is used to create a healing ointment.</string>
+    <string name="gr_10">10gr</string>
+    <string name="ocki_5" translatable="false">+5</string>
+    <string name="srok_godnosti">Expiration date</string>
+    <string name="day_14">14 days</string>
+    <string name="podoroznik_metod_polucenia">Can be found in the wasteland</string>
 
 
 </resources>

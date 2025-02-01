@@ -10,6 +10,7 @@ import com.bara_x.assistantdayr.transport.activity.CartDescription
 import com.bara_x.assistantdayr.listActivity.WeaponListActivity
 import com.bara_x.assistantdayr.transport.activity.ClassicMobileDescription
 import com.bara_x.assistantdayr.transport.activity.MotocycleDescription
+import com.bara_x.assistantdayr.transport.activity.VazDescription
 
 // отрисовывается экран с транспортом
 
@@ -127,7 +128,7 @@ class TransportListActivity : AppCompatActivity() {
                 }
                 if (position == 4) {
                     val intent =
-                        Intent(this@TransportListActivity, WeaponListActivity::class.java)
+                        Intent(this@TransportListActivity, VazDescription::class.java)
                     startActivity(intent)
 
                 }

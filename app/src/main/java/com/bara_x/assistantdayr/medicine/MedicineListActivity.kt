@@ -7,6 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bara_x.assistantdayr.R
 import com.bara_x.assistantdayr.databinding.ActivityMedicineListBinding
 import com.bara_x.assistantdayr.listActivity.WeaponListActivity
+import com.bara_x.assistantdayr.medicine.activity.BintDescription
+import com.bara_x.assistantdayr.medicine.activity.PodoroznikDescription
 import com.bara_x.assistantdayr.transport.activity.BicycleDescription
 import com.bara_x.assistantdayr.transport.activity.CartDescription
 import com.bara_x.assistantdayr.transport.activity.ClassicMobileDescription
@@ -126,13 +128,13 @@ class MedicineListActivity : AppCompatActivity() {
 
                 if (position == 0) {
                     val intent =
-                        Intent(this@MedicineListActivity, CartDescription::class.java)
+                        Intent(this@MedicineListActivity, BintDescription::class.java)
                     startActivity(intent)
 
                 }
                 if (position == 1) {
                     val intent =
-                        Intent(this@MedicineListActivity, BicycleDescription::class.java)
+                        Intent(this@MedicineListActivity, PodoroznikDescription::class.java)
                     startActivity(intent)
 
                 }
