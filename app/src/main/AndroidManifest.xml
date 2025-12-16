@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".medicine.activity.LisickaDescription"
+            android:exported="false" />
+        <activity
             android:name=".medicine.activity.PodoroznikDescription"
             android:exported="false" />
         <activity

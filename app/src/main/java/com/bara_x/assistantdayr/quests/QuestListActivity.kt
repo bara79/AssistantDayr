@@ -30,7 +30,7 @@ class QuestListActivity : AppCompatActivity() {
 //массивы с данными для заполнения
         imageId = arrayOf(
 
-            R.drawable.begin_7_2,
+            R.drawable.r17,
             R.drawable.bicycle,
             R.drawable.moto,
             R.drawable.classic_mobile,

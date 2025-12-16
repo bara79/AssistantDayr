@@ -8,6 +8,7 @@ import com.bara_x.assistantdayr.R
 import com.bara_x.assistantdayr.databinding.ActivityMedicineListBinding
 import com.bara_x.assistantdayr.listActivity.WeaponListActivity
 import com.bara_x.assistantdayr.medicine.activity.BintDescription
+import com.bara_x.assistantdayr.medicine.activity.LisickaDescription
 import com.bara_x.assistantdayr.medicine.activity.PodoroznikDescription
 import com.bara_x.assistantdayr.transport.activity.BicycleDescription
 import com.bara_x.assistantdayr.transport.activity.CartDescription
@@ -32,7 +33,7 @@ class MedicineListActivity : AppCompatActivity() {
 
             R.drawable.bint,
             R.drawable.podoroznik,
-            R.drawable.moto,
+            R.drawable.lisicka,
             R.drawable.classic_mobile,
             R.drawable.vaz2101,
             R.drawable.gaz24,
@@ -70,7 +71,7 @@ class MedicineListActivity : AppCompatActivity() {
 
             getString(R.string.bint),
             getString(R.string.podoriznik),
-            getString(R.string.motocycle),
+            getString(R.string.lisicka),
             getString(R.string.clasic_mobile),
             getString(R.string.vaz2101),
             getString(R.string.gaz24),
@@ -140,7 +141,7 @@ class MedicineListActivity : AppCompatActivity() {
                 }
                 if (position == 2) {
                     val intent =
-                        Intent(this@MedicineListActivity, MotocycleDescription::class.java)
+                        Intent(this@MedicineListActivity, LisickaDescription::class.java)
                     startActivity(intent)
 
                 }

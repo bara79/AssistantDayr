@@ -388,6 +388,9 @@
             app:layout_constraintStart_toStartOf="@+id/imageViewSurvival"
             app:layout_constraintTop_toBottomOf="@+id/imageViewSurvival" />
 
+
+
+
         <!-- кнопка настройка settings -->
 
         <Button

@@ -188,6 +188,14 @@
     <string name="srok_godnosti">Срок годности</string>
     <string name="day_14">14 дней</string>
     <string name="podoroznik_metod_polucenia">Можно найти в пустоши, на дороге</string>
+    <string name="lisicka">Лисичка</string>
+    <string name="lisicka_description">Лисичка — съедобный гриб, который используется для создания некоторых медикаментов и в некоторых рецептах еды. Можно употреблять в пищу в сыром виде, однако лучше предварительно пожарить. Применяется в - Очищающий отвар, жареная лисичка, макароны с грибами, грибной суп.</string>
+    <string name="gr_200">200гр</string>
+    <string name="eda">Еда</string>
+    <string name="radiacia">Радиация</string>
+    <string name="otravlenie">Пищевое отравление</string>
+    <string name="lisicka_metod_polucenia">Найти в лесу. Могут принести ленивые эльфы и тыквенные болваны. Может принести питомец Тыковка. Можно найти в теплицах Института в заражённых городах(наукоградах).</string>
+    <string name="iventi">ИВЕНТЫ</string>
 
 
 </resources>
