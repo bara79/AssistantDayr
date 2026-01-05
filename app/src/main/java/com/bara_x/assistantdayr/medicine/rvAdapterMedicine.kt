@@ -12,7 +12,6 @@ import com.bara_x.assistantdayr.transport.rvAdapterTransport
 // адаптер ресайклер вью
 
 
-
 class rvAdapterMedicine(val medicineList: ArrayList<Medicine>) :
     RecyclerView.Adapter<rvAdapterMedicine.MedicineHolder>(){
 

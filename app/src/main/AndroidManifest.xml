@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AssistantDayr">
         <activity
+            android:name=".food.activity.`pepsicola.Description`"
+            android:exported="false" />
+        <activity
             android:name=".medicine.activity.LisickaDescription"
             android:exported="false" />
         <activity
@@ -60,7 +63,7 @@
             android:name=".listActivity.CharacterListActivity"
             android:exported="false" />
         <activity
-            android:name=".listActivity.FoodListActivity"
+            android:name=".food.FoodListActivity"
             android:exported="false" />
         <activity
             android:name=".medicine.MedicineListActivity"

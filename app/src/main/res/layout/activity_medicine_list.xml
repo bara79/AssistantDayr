@@ -7,7 +7,6 @@
     android:background="@drawable/background"
     tools:context=".medicine.MedicineListActivity">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcViewMedicine"
         android:layout_width="match_parent"

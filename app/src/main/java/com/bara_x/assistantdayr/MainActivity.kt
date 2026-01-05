@@ -7,6 +7,7 @@ import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import com.bara_x.assistantdayr.food.FoodListActivity
 import com.bara_x.assistantdayr.survival.SurvivalListActivity
 import com.bara_x.assistantdayr.transport.TransportListActivity
 import com.bara_x.assistantdayr.listActivity.*
